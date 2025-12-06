@@ -1,11 +1,45 @@
+"use client"
+import Image from 'next/image'
 import React from 'react'
 
-const about = () => {
+const About = () => {
   return (
-    <div className='about'>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo nihil nisi animi aut explicabo magni doloribus vel dolorem doloremque! Officia reiciendis labore possimus aliquid? Eos, tempora ipsum magni doloremque voluptatum nemo! Alias itaque culpa ab ipsum tenetur officiis, repellat cum voluptatibus obcaecati, explicabo aperiam soluta quos eaque enim quam voluptatum nostrum numquam voluptas! Recusandae iste, tempore aliquam, laborum totam non itaque, ipsa explicabo ducimus ea aut est at quo alias magni eum animi consequuntur esse sed autem qui fugiat illo sint vero! Similique laboriosam explicabo laborum, qui inventore voluptatem enim blanditiis. Corrupti, nisi ad! Ad unde velit architecto fuga, iusto expedita rem quam explicabo doloremque quos minima similique quae provident, deserunt accusamus excepturi repellendus recusandae nobis vitae dolorem? Debitis eos officiis aliquid odio, eaque dolores distinctio, harum praesentium sequi repudiandae eligendi unde! Distinctio alias est deleniti soluta, quos ipsa tempora nulla eveniet provident facilis illo sed debitis optio ad ullam animi obcaecati dignissimos perspiciatis, harum excepturi consequuntur reiciendis suscipit laboriosam eaque? Rem est sapiente ut commodi reiciendis maiores tempora, magnam, iste non sunt enim optio mollitia fugit provident dignissimos aspernatur suscipit. Expedita aliquid esse eaque eum nulla saepe est, dolorum dolor fugiat quia, itaque laudantium non! Maiores, nihil obcaecati eius non, sapiente ut qui quasi earum sint ea harum quam ab blanditiis magni facere ullam ex ad commodi corporis aliquam provident illo. Consequuntur alias deleniti sint id sed voluptatum. Itaque accusamus debitis, sapiente optio at culpa vero laboriosam eaque ex praesentium dignissimos aut minus laborum? Fugiat nulla facere illo consequuntur, ex sunt nisi nemo a id ab, dolores doloribus beatae odit similique laboriosam nesciunt obcaecati reprehenderit eum! Maiores, animi veniam minima repellendus recusandae harum quia. Inventore ea soluta ipsum aspernatur amet molestias debitis cupiditate blanditiis commodi sunt asperiores repudiandae hic vero nesciunt maiores, sapiente a quisquam labore maxime laboriosam? Porro consectetur accusamus accusantium libero nostrum aperiam veniam voluptate maxime veritatis, ex suscipit nisi ducimus minus nulla ea modi laborum repellat quam dolorum reiciendis aut! Neque tempora dolorem, mollitia exercitationem suscipit quo inventore voluptatum!
+    <div 
+      id="about" 
+      className="bg-gray-100 px-6 lg:px-12 py-10 2xl:py-20 grid grid-cols-1 md:grid-cols-2 items-center gap-10"
+    >
+      
+      {/* LEFT TEXT SECTION */}
+      <div className="order-2 ">
+        <h1 className="text-gray-900 font-extrabold text-2xl sm:text-3xl xl:text-4xl pb-4">
+          What our <span className="text-purple-500">Agency</span> can do for your business
+        </h1> 
+
+        <p className="text-gray-700 leading-relaxed text-md sm:text-lg 2xl:w-[30vw]">
+          Whether you're an eCommerce brand looking to boost sales, a tech startup aiming for rapid growth, 
+          or a local service provider wanting to expand your reach — digital marketing can make it happen.
+          <br/><br/>
+          At <span className="font-semibold">Humexaadnest</span>, we transform brands through data-driven marketing 
+          and world-class digital execution. Whether you need high-impact ad campaigns, complete social media management, 
+          or a professionally designed and developed website, our team delivers tailored solutions that elevate your business.
+          <br/><br/>
+          We focus on growth, visibility, and long-term success — so your brand stands out in a competitive digital world.
+        </p>
+      </div>
+
+      {/* RIGHT IMAGE */}
+      <div className="order-2 md:order-1 flex justify-center md:justify-start 2xl:justify-center">
+        <Image 
+          src="/A1.png"
+          alt="About Humexaadnest"
+          width={500}
+          height={500}
+          className="rounded-xl shadow-lg object-contain"
+        />
+      </div>
+
     </div>
   )
 }
 
-export default about
+export default About

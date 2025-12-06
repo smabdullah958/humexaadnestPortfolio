@@ -24,7 +24,7 @@ const Header = () => {
       <div className='flex sm:gap-x-3 md:gap-x-7 lg:gap-x-10 justify-end items-center '>
         <Link href="#home" className='sm:text-sm md:text-lg text-gray-200 hover:text-[#d6a7e5] active:text-[#d6a7e5] text-md font-medium transition-all duration-300  hover:scale-110'>Home</Link>
         <Link href="#about" className='sm:text-sm md:text-lg text-gray-200 hover:text-[#d6a7e5] active:text-[#d6a7e5] text-md font-medium transition-all duration-300  hover:scale-110'>About</Link>
-        <Link href="#Services" className='sm:text-sm md:text-lg text-gray-200 hover:text-[#d6a7e5] active:text-[#d6a7e5] text-md font-medium transition-all duration-300  hover:scale-110'>Services</Link>
+        <Link href="#services" className='sm:text-sm md:text-lg text-gray-200 hover:text-[#d6a7e5] active:text-[#d6a7e5] text-md font-medium transition-all duration-300  hover:scale-110'>Services</Link>
         <Link href="#Projects" className='sm:text-sm md:text-lg text-gray-200 hover:text-[#d6a7e5] active:text-[#d6a7e5] text-md font-medium transition-all duration-300  hover:scale-110'>Projects</Link>
         <Link href="#Contact" className='sm:text-sm md:text-lg text-gray-200 hover:text-[#d6a7e5] active:text-[#d6a7e5] text-md font-medium transition-all duration-300  hover:scale-110 mr-5'>Contact</Link>
       </div>
@@ -54,7 +54,7 @@ const Header = () => {
         <div className='sm:hidden w-full flex flex-col  items-center p-6 space-y-4 fixed top-14 shadow-lg z-50 bg-[#272626]'>
           <Link  href="#" onClick={CloseNavBar} className='text-gray-200 text-lg font-medium transition-all duration-300 hover:text-[#087ef5] hover:scale-105 active:text-[#d6a7e5]'>Home</Link>
           <Link href="#about" onClick={CloseNavBar} className='text-gray-200 active:text-[#d6a7e5] text-lg font-medium transition-all duration-300 hover:text-[#087ef5] hover:scale-105'>About</Link>
-          <Link href="#Services" onClick={CloseNavBar} className='text-gray-200 active:text-[#d6a7e5] text-lg font-medium transition-all duration-300 hover:text-[#087ef5] hover:scale-105'>Services</Link>
+          <Link href="#services" onClick={CloseNavBar} className='text-gray-200 active:text-[#d6a7e5] text-lg font-medium transition-all duration-300 hover:text-[#087ef5] hover:scale-105'>Services</Link>
           <Link href="#Projects" onClick={CloseNavBar} className='text-gray-200 active:text-[#d6a7e5] text-lg font-medium transition-all duration-300 hover:text-[#087ef5] hover:scale-105'>Projects</Link>
           <Link href="#Contact" onClick={CloseNavBar} className='text-gray-200 active:text-[#d6a7e5] text-lg font-medium transition-all duration-300 hover:text-[#087ef5] hover:scale-105'>Contact</Link>
         </div>
