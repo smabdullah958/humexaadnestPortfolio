@@ -35,7 +35,7 @@ const Services = () => {
   ];
 
   return (
-    <div className="bg-gray-100 w-full h-full px-6 lg:px-12 py-10 xl:py-16">
+    <div id="services" className="bg-gray-100 w-full h-full px-6 lg:px-12 py-10 xl:py-16">
       {/* Heading */}
       <h1 className="text-4xl md:text-5xl font-extrabold mb-12 text-center text-gray-900">
         Explore Our <span className="text-purple-500">Services</span>
@@ -45,11 +45,7 @@ const Services = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
         {ServicesObject.map((item) => {
           return (
-            <div id="services"
-              key={item.id}
-              className="bg-gray-200 backdrop-blur-md p-8 rounded-2xl shadow-xl 
-              border border-purple-700/30 hover:border-purple-500 hover:scale-105 
-              transition-all duration-500 group"
+            <div key={item.id} className="bg-gray-200 backdrop-blur-md p-8 rounded-2xl shadow-xl border border-purple-700/30 hover:border-purple-500 hover:scale-105 transition-all duration-500 group"
             >
               {/* Icon */}
               <div className="mb-4 group-hover:scale-110 transition">

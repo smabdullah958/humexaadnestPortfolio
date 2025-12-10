@@ -28,7 +28,9 @@ const Header = () => {
         <Link href="#Projects" className='sm:text-sm md:text-lg text-gray-200 hover:text-[#d6a7e5] active:text-[#d6a7e5] text-md font-medium transition-all duration-300  hover:scale-110'>Projects</Link>
         <Link href="#Contact" className='sm:text-sm md:text-lg text-gray-200 hover:text-[#d6a7e5] active:text-[#d6a7e5] text-md font-medium transition-all duration-300  hover:scale-110 mr-5'>Contact</Link>
       </div>
-      <button className="text-gray-200 hover:bg-[#f2b6f3ed]  text-md font-medium  p-3 border-2 rounded-3xl">get in touch</button>
+<Link href="https://wa.me/923161927285?text=Hi%20I%20want%20to%20book%20a%2015-minute%20call."
+  target="_blank"
+  className="sm:hidden md:block px-6 py-3 bg-purple-600 text-white font-semibold rounded-xl hover:bg-purple-700 transition">Book Call</Link>
       </div>
 
       {/* Mobile Navbar */}

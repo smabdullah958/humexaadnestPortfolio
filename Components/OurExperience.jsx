@@ -29,7 +29,7 @@ const OurExperience = () => {
             className="p-6 bg-white rounded-xl shadow-lg hover:scale-105 transition duration-300 border border-purple-200"
           >
             <h2 className="text-5xl font-extrabold text-black ">
-              <CountUp end={5} duration={3} enableScrollSpy />+
+              <CountUp end={3} duration={3} enableScrollSpy />+
             </h2>
             <p className="text-lg mt-2 text-gray-800">Years of Experience</p>
           </motion.div>

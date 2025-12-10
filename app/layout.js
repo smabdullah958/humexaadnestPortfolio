@@ -6,6 +6,8 @@ export const metadata = {
   description: "humexaadnest is a USA base Marketing Agency",
 };
 
+
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
