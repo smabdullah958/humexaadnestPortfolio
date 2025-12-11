@@ -1,12 +1,8 @@
 "use client";
-
-import React, { useState } from "react";
+import Link from "next/link";
+import React from "react";
 import { FaBullhorn, FaUsersCog, FaCode, FaPalette } from "react-icons/fa";
-
-const Services = () => {
-  const [selectedService, setSelectedService] = useState(null);
-
-  let ServicesObject = [
+export const ServicesObject = [
     {
       id: 1,
       name: "Social Media Marketing",
@@ -70,6 +66,9 @@ const Services = () => {
     },
   ];
 
+const Services = () => {
+
+
   return (
     <div
       id="services"
@@ -102,43 +101,18 @@ const Services = () => {
               <p className="text-gray-600 leading-relaxed">{item.short}</p>
 
               {/* Show More Button */}
-              <button
+              <Link
+                href={`/Services/${item.id}`}
                 className="mt-4 text-purple-600 font-semibold hover:underline"
-                onClick={() => setSelectedService(item)}
+                
               >
                 Show More
-              </button>
+              </Link>
             </div>
-          );
+          ); 
         })}
       </div>
 
-      {/* Modal */}
-      {selectedService && (
-        <div className="fixed inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center p-4 z-50 mt-5">
-
-          <div className="bg-white rounded-2xl p-6 w-full sm:w-[80%] md:w-[50%] xl:w-[30%] 
-          2xl:h-[30%]  shadow-xl animate-fadeIn">
-       <div className="flex justify-between gap-1 2xl:py-5">
-           <button
-  className="mt-0  w-10 h-10 order-2 flex items-center justify-center bg-purple-600 text-white rounded-full hover:bg-purple-700 transition 2xl:text-3xl"
-  onClick={() => {setTimeout(() => setSelectedService(null), 200)}}
->
-  ×
-</button>
-
-            <h2 className="text-2xl 2xl:text-5xl  sm:text-3xl font-extrabold  text-purple-600">
-              {selectedService.name}
-            </h2>
-</div>
-<div className="2xl:flex 2xl:justify-center 2xl:text-justify 2xl:items-center">
-            <p className="whitespace-pre-line text-gray-700 leading-relaxed 2xl:text-xl">
-              {selectedService.full}
-            </p>
-</div>
-          </div>
-        </div>
-      )}
     </div>
   );
 };
