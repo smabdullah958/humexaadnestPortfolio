@@ -5,7 +5,7 @@ import CountUp from "react-countup";
 
 const OurExperience = () => {
   return (
-    <div className="bg-white text-black  py-12 px-6">
+    <div className="bg-[#eff4f7] text-black  py-12 px-6">
       <div className="max-w-screen mx-auto text-center">
         
         {/* Heading */}

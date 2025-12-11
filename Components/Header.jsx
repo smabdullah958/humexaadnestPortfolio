@@ -17,16 +17,16 @@ const Header = () => {
   return (
     <>
       {/* Desktop Navbar */}
-      <div className='hidden 2xl:h-40 sm:flex sm:items-center sm:justify-between sm:bg-[#272626] sm:w-full sm:px-5 md:py-3 sm:shadow-md sm:fixed sm:top-0 z-50 h-20'>
+      <div className='hidden 2xl:h-40 sm:flex sm:items-center sm:justify-between bg-[#ece7e7] sm:w-full sm:px-5 md:py-3 sm:shadow-md sm:fixed sm:top-0 z-50 h-20'>
 
-         <h1 className="text-white font-bold text-xl ">S M Abdullah</h1>
+         <h1 className="text-gray-800 font-bold text-xl ">S M Abdullah</h1>
 
       <div className='flex sm:gap-x-3 md:gap-x-7 lg:gap-x-10 justify-end items-center '>
-        <Link href="#home" className='sm:text-sm md:text-lg text-gray-200 hover:text-[#d6a7e5] active:text-[#d6a7e5] text-md font-medium transition-all duration-300  hover:scale-110'>Home</Link>
-        <Link href="#about" className='sm:text-sm md:text-lg text-gray-200 hover:text-[#d6a7e5] active:text-[#d6a7e5] text-md font-medium transition-all duration-300  hover:scale-110'>About</Link>
-        <Link href="#services" className='sm:text-sm md:text-lg text-gray-200 hover:text-[#d6a7e5] active:text-[#d6a7e5] text-md font-medium transition-all duration-300  hover:scale-110'>Services</Link>
-        <Link href="#Projects" className='sm:text-sm md:text-lg text-gray-200 hover:text-[#d6a7e5] active:text-[#d6a7e5] text-md font-medium transition-all duration-300  hover:scale-110'>Projects</Link>
-        <Link href="#Contact" className='sm:text-sm md:text-lg text-gray-200 hover:text-[#d6a7e5] active:text-[#d6a7e5] text-md font-medium transition-all duration-300  hover:scale-110 mr-5'>Contact</Link>
+        <Link href="#home" className='sm:text-sm md:text-lg text-gray-800 hover:text-gray-900 text-md font-medium transition-all duration-300  hover:scale-110'>Home</Link>
+        <Link href="#about" className='sm:text-sm md:text-lg text-gray-800 hover:text-gray-900 text-md font-medium transition-all duration-300  hover:scale-110'>About</Link>
+        <Link href="#services" className='sm:text-sm md:text-lg text-gray-800 hover:text-gray-900 text-md font-medium transition-all duration-300  hover:scale-110'>Services</Link>
+        <Link href="#Projects" className='sm:text-sm md:text-lg text-gray-800 hover:text-gray-900 text-md font-medium transition-all duration-300  hover:scale-110'>Projects</Link>
+        <Link href="#Contact" className='sm:text-sm md:text-lg text-gray-800 hover:text-gray-900 text-md font-medium transition-all duration-300  hover:scale-110 mr-5'>Contact</Link>
       </div>
 <Link href="https://wa.me/923161927285?text=Hi%20I%20want%20to%20book%20a%2015-minute%20call."
   target="_blank"
@@ -34,17 +34,17 @@ const Header = () => {
       </div>
 
       {/* Mobile Navbar */}
-      <div className='sm:hidden flex items-center justify-between  bg-[#272626] w-full px-5 py-3 shadow-md fixed top-0 z-50 h-20'>
+      <div className='sm:hidden flex items-center justify-between bg-[#ece7e7]  w-full px-5 py-3 shadow-md fixed top-0 z-50 h-20'>
         {/* Logo (optional) */}
-        <h1 className="text-white font-bold text-xl">abdullah</h1>
+        <h1 className="text-gray-800 font-bold text-xl">abdullah</h1>
 
         {/* Burger button */}
         {/* if show false than display the burger button if a show is true than a display teh burger button  */}
       {(show===false)? 
        (
-          <FaBars size={28} onClick={() => setshow(true)} className="cursor-pointer text-gray-200" />
+          <FaBars size={28} onClick={() => setshow(true)} className="cursor-pointer text-gray-800" />
         ):
-         (<FaTimes size={28} onClick={() => setshow(false)} className="cursor-pointer text-gray-200" />
+         (<FaTimes size={28} onClick={() => setshow(false)} className="cursor-pointer text-gray-800" />
         )
 
         }
@@ -53,12 +53,12 @@ const Header = () => {
 
       {/* Mobile menu dropdown */}
       {show && (
-        <div className='sm:hidden w-full flex flex-col  items-center p-6 space-y-4 fixed top-14 shadow-lg z-50 bg-[#272626]'>
-          <Link  href="#" onClick={CloseNavBar} className='text-gray-200 text-lg font-medium transition-all duration-300 hover:text-[#087ef5] hover:scale-105 active:text-[#d6a7e5]'>Home</Link>
-          <Link href="#about" onClick={CloseNavBar} className='text-gray-200 active:text-[#d6a7e5] text-lg font-medium transition-all duration-300 hover:text-[#087ef5] hover:scale-105'>About</Link>
-          <Link href="#services" onClick={CloseNavBar} className='text-gray-200 active:text-[#d6a7e5] text-lg font-medium transition-all duration-300 hover:text-[#087ef5] hover:scale-105'>Services</Link>
-          <Link href="#Projects" onClick={CloseNavBar} className='text-gray-200 active:text-[#d6a7e5] text-lg font-medium transition-all duration-300 hover:text-[#087ef5] hover:scale-105'>Projects</Link>
-          <Link href="#Contact" onClick={CloseNavBar} className='text-gray-200 active:text-[#d6a7e5] text-lg font-medium transition-all duration-300 hover:text-[#087ef5] hover:scale-105'>Contact</Link>
+        <div className='sm:hidden w-full flex flex-col  items-center p-6 space-y-4 fixed top-14 shadow-lg z-50 bg-[#ece7e7] '>
+          <Link  href="#" onClick={CloseNavBar} className='text-gray-800 text-lg font-medium transition-all duration-300 hover:text-gray-900 hover:scale-105'>Home</Link>
+          <Link href="#about" onClick={CloseNavBar} className='text-gray-800 text-lg font-medium transition-all duration-300 hover:text-gray-900 hover:scale-105'>About</Link>
+          <Link href="#services" onClick={CloseNavBar} className='text-gray-800  text-lg font-medium transition-all duration-300 hover:text-gray-900 hover:scale-105'>Services</Link>
+          <Link href="#Projects" onClick={CloseNavBar} className='text-gray-800 text-lg font-medium transition-all duration-300 hover:text-gray-900 hover:scale-105'>Projects</Link>
+          <Link href="#Contact" onClick={CloseNavBar} className='text-gray-800 text-lg font-medium transition-all duration-300 hover:text-gray-900 hover:scale-105'>Contact</Link>
         </div>
       )}
       

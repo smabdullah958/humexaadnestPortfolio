@@ -4,11 +4,10 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div 
-      id="about" 
+    <div id="about" 
       className="bg-gray-100 px-6 lg:px-12 py-10 md:py-16 grid grid-cols-1 md:grid-cols-2  gap-10">
-      <div className="order-1 md:order-2 space-y-5 text-gray-700">
-        <h2 className="text-3xl lg:text-4xl font-bold text-gray-900">
+      <div className="order-1 md:order-2 space-y-5 text-gray-700 flex flex-col justify-center">
+        <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 ">
           About Humexaadnest
         </h2>
 
@@ -28,7 +27,7 @@ const About = () => {
       {/* RIGHT IMAGE */}
       <div className="order-1 md:order-2 flex justify-center md:justify-start 2xl:justify-center">
         <Image 
-          src="/A1.png"
+          src="/im3.jpeg"
           alt="About Humexaadnest"
           width={500}
           height={500}
