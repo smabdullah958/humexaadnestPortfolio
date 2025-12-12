@@ -6,6 +6,7 @@ import OurExperience from '@/Components/OurExperience'
 import Services from '@/Components/Services'
 import TrustSignals from '@/Components/TrustSignals'
 import WhyChooseUs from '@/Components/WhyChooseUs'
+import Pricing from '@/Components/Pricing'
 const page = () => {
   return (
     <div>
@@ -16,6 +17,7 @@ const page = () => {
       <About/>
       <OurExperience />
       <Services />  
+      <Pricing />
     </div>
   )
 }

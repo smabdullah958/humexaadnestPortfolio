@@ -1,75 +1,9 @@
 "use client";
 import Link from "next/link";
 import React from "react";
-import { FaBullhorn, FaUsersCog, FaCode, FaPalette } from "react-icons/fa";
-export const ServicesObject = [
-    {
-      id: 1,
-      name: "Social Media Marketing",
-      icon: <FaBullhorn className="text-4xl text-purple-500" />,
-      short:
-        "High-converting Meta ad campaigns designed for low cost-per-lead and maximum ROI.",
-      full: `
-• Meta Ads campaign creation & management
-• Audience research (Lookalike, Custom, Geo-targeted)
-• Ad copywriting & creative design
-• A/B testing & optimization
-• Retargeting warm audiences
-• CRM Integrations (Go High Level, Zapier)
-• Analytics, reporting & ROI tracking
-      `,
-    },
-    {
-      id: 2,
-      name: "Social Media Management",
-      icon: <FaUsersCog className="text-4xl text-purple-500" />,
-      short:
-        "Professional content creation, posting, engagement handling & monthly reporting.",
-      full: `
-• Content creation & scheduling (FB, IG, LinkedIn)
-• Graphic designing (Canva, Photoshop)
-• Audience engagement (DMs, comments, replies)
-• Monthly content calendar planning
-• Reporting & analytics tracking
-• Organic growth strategy + occasional ad integration
-• Tools: Canva, Meta Business Suite, Google Analytics
-      `,
-    },
-    {
-      id: 3,
-      name: "Website Development",
-      icon: <FaCode className="text-4xl text-purple-500" />,
-      short:
-        "Fast, mobile-optimized websites built to convert visitors into paying clients.",
-      full: `
-• Landing pages built for lead capture
-• Conversion-focused UI/UX
-• Mobile-optimized & fast-loading websites
-• CRM / Lead form integration
-• Payment gateway setup
-• Basic SEO & performance tracking
-      `,
-    },
-    {
-      id: 4,
-      name: "Web Design",
-      icon: <FaPalette className="text-4xl text-purple-500" />,
-      short:
-        "Modern, attractive and user-friendly UI design for powerful brand identity.",
-      full: `
-• Creative and modern UI/UX design
-• Brand-focused color themes
-• Mobile-first layouts
-• Eye-catching visual elements
-• Improved user experience & engagement
-      `,
-    },
-  ];
-
+import { ServicesObject } from "@/Components/ServicesObject";
 const Services = () => {
-
-
-  return (
+ return (
     <div
       id="services"
       className="bg-gray-100 w-full h-full px-6 lg:px-12 py-10 xl:py-16"
@@ -114,7 +48,8 @@ const Services = () => {
       </div>
 
     </div>
-  );
+
+);
 };
 
 export default Services;
