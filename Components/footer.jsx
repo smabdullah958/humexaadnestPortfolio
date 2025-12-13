@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { FaFacebook, FaInstagram } from 'react-icons/fa';
 
-export default function Footer() {
+ function Footer() {
   return (
     <footer className="bg-[#b3d4f4] text-white">
       <div className="container mx-auto px-6 py-10">
@@ -122,3 +122,5 @@ export default function Footer() {
     </footer>
   );
 }
+
+export default Footer;
