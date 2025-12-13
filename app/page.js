@@ -9,7 +9,7 @@ import WhyChooseUs from '@/Components/WhyChooseUs'
 import Pricing from '@/Components/Pricing'
 import OurValueableClient from '@/Components/OurValueableClient'
 import ContactUs from '@/Components/Contact'
-import Footer from "@/Components/Footer"
+import Footer from "@/Components/footer.jsx"
 const page = () => {
   return (
     <div>
