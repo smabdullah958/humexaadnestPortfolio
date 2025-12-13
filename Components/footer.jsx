@@ -82,10 +82,8 @@ export default function Footer() {
               <Link
                 href="https://www.instagram.com/humexa.adnest"
                 target="_blank"
-                className="w-10 h-10 flex items-center justify-center rounded-full
-                           bg-white/10 border border-white/20
-                           hover:bg-gradient-to-tr hover:from-pink-500 hover:to-purple-600
-                           hover:scale-110 transition-all duration-300"
+                className="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 border border-white/20 hover:bg-gradient-to-tr hover:from-pink-50 hover:to-purple-600
+                hover:scale-110 transition-all duration-300"
               >
                 <FaInstagram className="text-white text-lg" />
               </Link>
@@ -94,10 +92,7 @@ export default function Footer() {
               <Link
                 href="https://www.facebook.com/Humexa.adnest"
                 target="_blank"
-                className="w-10 h-10 flex items-center justify-center rounded-full
-                           bg-white/10 border border-white/20
-                           hover:bg-blue-600 hover:scale-110
-                           transition-all duration-300"
+                className="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 border border-white/2 hover:bg-blue-600 hover:scale-110 transition-all duration-300"
               >
                 <FaFacebook className="text-white text-lg" />
               </Link>
