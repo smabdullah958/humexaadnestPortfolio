@@ -60,14 +60,15 @@ export default function OurValueableClient() {
               className="bg-white p-6 rounded-2xl shadow-md flex-shrink-0"
               style={{ width: `calc(${100 / cardsPerView}% - ${cardGap * (cardsPerView - 1) / cardsPerView}px)` }}
             >
-              <div className="flex text-yellow-400 mb-3">
+               <h4 className="font-semibold text-gray-900 text-center">{item.name}</h4>
+              <p className="text-xs text-gray-500 text-center">{item.role}</p>
+              <div className="flex text-yellow-400 mb-3 justify-center">
                 {[...Array(5)].map((_, j) => (
                   <FaStar key={j} />
                 ))}
               </div>
-              <p className="text-sm text-gray-700 mb-4">“{item.text}”</p>
-              <h4 className="font-semibold text-gray-900">{item.name}</h4>
-              <p className="text-xs text-gray-500">{item.role}</p>
+              <p className="text-sm text-gray-700 mb-4 text-center">“{item.text}”</p>
+             
             </div>
           ))}
         </motion.div>

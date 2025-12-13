@@ -4,6 +4,7 @@
 import { FaBars, FaTimes } from "react-icons/fa"; // FaBars = burger icon, FaTimes = close icon
 import Link from 'next/link'
 import React, { useState } from 'react'
+import Image from "next/image";
 
 const Header = () => {
   let [show, setshow] = useState(false)
@@ -19,8 +20,16 @@ const Header = () => {
       {/* Desktop Navbar */}
       <div className='hidden 2xl:h-40 sm:flex sm:items-center sm:justify-between bg-[#ece7e7] sm:w-full sm:px-5 md:py-3 sm:shadow-md sm:fixed sm:top-0 z-50 h-20'>
 
-         <h1 className="text-gray-800 font-bold text-xl ">S M Abdullah</h1>
-
+      {/* Logo */}
+              <div>
+                <Image
+                  src="/Logo.png"
+                  alt="Humexa AdNest Logo"
+                  width={100}
+                  height={100}
+                />
+              </div>
+        
       <div className='flex sm:gap-x-3 md:gap-x-7 lg:gap-x-10 justify-end items-center '>
         
         <Link href="/#about" className='sm:text-sm md:text-lg text-gray-800 hover:text-gray-900 text-md font-medium transition-all duration-300  hover:scale-110'>About</Link>
@@ -36,8 +45,16 @@ const Header = () => {
 
       {/* Mobile Navbar */}
       <div className='sm:hidden flex items-center justify-between bg-[#ece7e7]  w-full px-5 py-3 shadow-md fixed top-0 z-50 h-20'>
-        {/* Logo (optional) */}
-        <h1 className="text-gray-800 font-bold text-xl">abdullah</h1>
+      
+      {/* Logo */}
+              <div>
+                <Image
+                  src="/Logo.png"
+                  alt="Humexa AdNest Logo"
+                  width={100}
+                  height={100}
+                />
+              </div>
 
         {/* Burger button */}
         {/* if show false than display the burger button if a show is true than a display teh burger button  */}
