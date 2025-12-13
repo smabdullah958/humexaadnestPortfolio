@@ -8,7 +8,7 @@ import TrustSignals from '@/Components/TrustSignals'
 import WhyChooseUs from '@/Components/WhyChooseUs'
 import Pricing from '@/Components/Pricing'
 import ContactUs from '@/Components/Contact'
-import Footer from "@/Components/footer"
+import Footer from "@/Components/Footer"
 const page = () => {
   return (
     <div>
