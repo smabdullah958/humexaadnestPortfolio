@@ -7,6 +7,7 @@ import Services from '@/Components/Services'
 import TrustSignals from '@/Components/TrustSignals'
 import WhyChooseUs from '@/Components/WhyChooseUs'
 import Pricing from '@/Components/Pricing'
+import ContactUs from '@/Components/Cotact'
 const page = () => {
   return (
     <div>
@@ -18,6 +19,7 @@ const page = () => {
       <OurExperience />
       <Services />  
       <Pricing />
+      <ContactUs />
     </div>
   )
 }
