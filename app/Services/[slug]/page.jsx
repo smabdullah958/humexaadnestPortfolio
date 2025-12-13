@@ -5,8 +5,8 @@ import { ServicesObject } from "@/Components/ServicesObject";
 import { FaCheckCircle } from "react-icons/fa";
 
 export default function ServiceDetails({ params }) {
-  const { id } =React.use(params);
-  const service = ServicesObject.find((s) => s.id == id);
+  const {slug} =React.use(params);
+  const service = ServicesObject.find((s) => s.slug == slug);
 
   if (!service) {
     return <div className="p-10 text-red-600 text-center">Service Not Found</div>;

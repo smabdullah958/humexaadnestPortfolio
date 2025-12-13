@@ -90,8 +90,9 @@ const PricingCard = ({ plan }) => {
       </div>
 
       {/* Show More / Show Less Button */}
+      <div className="flex justify-between">
       {plan.deliverables.length > 3 && (
-        <button
+<button
           onClick={() => setShowAll(!showAll)}
           className="text-purple-600 font-semibold mt-4 hover:underline hover:scale-110 transition duration-300"
         >
@@ -106,6 +107,7 @@ const PricingCard = ({ plan }) => {
       >
         Book Call
       </Link>
+      </div>
     </div>
   );
 };

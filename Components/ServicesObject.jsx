@@ -2,6 +2,7 @@ import { FaBullhorn, FaUsersCog, FaCode} from "react-icons/fa";
 export const ServicesObject = [
   {
     id: 1,
+     slug: "social-media-management",
     name: "Social Media Management (SMM)",
     image: "/SocialMedia.png",
     icon: <FaBullhorn className="text-4xl text-purple-500" />,
@@ -25,6 +26,7 @@ Tools We Use:
 
   {
     id: 2,
+    slug: "social-media-marketing-ads",
     name: "Social Media Marketing & Ads",
     image: "/SocialMarketing+ADS(2).png",
     icon: <FaUsersCog className="text-4xl text-purple-500" />,
@@ -50,6 +52,7 @@ Tools We Use:
 
   {
     id: 3,
+    slug: "website-development",
     name: "Website Development",
     image: "/web.jpeg",
     icon: <FaCode className="text-4xl text-purple-500" />,

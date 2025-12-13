@@ -36,7 +36,7 @@ const Services = () => {
 
               {/* Show More Button */}
               <Link
-                href={`/Services/${item.id}`}
+                href={`/Services/${item.slug}`}
                 className="mt-4 text-purple-600 font-semibold hover:underline"
                 
               >
