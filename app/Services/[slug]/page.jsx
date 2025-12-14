@@ -30,20 +30,20 @@ export default function ServiceDetails({ params }) {
         </div>
 
         {/* Image */}
-        <div className="md:w-1/2 flex justify-center">
+        <div className="md:w-1/2 flex mt-4 justify-center">
           <Image
             src={service.image}
             alt={service.name}
             width={500}
             height={200}
             loading="lazy"
-            className="rounded-2xl shadow-xl"
+            className="rounded-2xl shadow-xl m-4"
           />
         </div>
       </div>
 
       {/* What We Offer */}
-      <div className="max-w-5xl mx-auto mt-20 px-6">
+      <div className="max-w-5xl mx-auto mt-10 md:mt-20 px-6">
         <h2 className="text-3xl font-extrabold text-purple-600 text-center mb-10">
           What We Offer
         </h2>

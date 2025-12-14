@@ -71,7 +71,7 @@ const TrustSignals = () => {
           {industries.map((item, index) => (
             <div
               key={index}
-              className="flex-shrink-0 px-3"
+              className="shrink-0 px-3"
               style={{ width: `${100 / cardsPerView}%` }}
             >
               <div className="bg-[#d9d9e1] p-2 text-justify rounded-xl shadow-lg border border-purple-700/20 hover:scale-105 transition duration-500 h-full">

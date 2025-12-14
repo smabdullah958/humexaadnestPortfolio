@@ -67,7 +67,7 @@ export default function OurValueableClient() {
                   <FaStar key={j} />
                 ))}
               </div>
-              <p className="text-sm text-gray-700 mb-4 text-justify">“{item.text}”</p>
+              <p className="text-sm text-gray-700 mb-4 text-justify px-3">“{item.text}”</p>
              
             </div>
           ))}
