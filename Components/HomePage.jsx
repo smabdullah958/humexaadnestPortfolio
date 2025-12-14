@@ -3,7 +3,7 @@ import Link from 'next/link'
 const HomePage=()=>{
   return (
     <div  id="home">
-      <div   className="relative h-[90vh] xl:min-h-[80vh] 2xl:min-h-[70vh] flex items-center justify-center overflow-hidden pt-10 md:pt-0 pb-5 md:pb-0 bg-[#ebf2f6]">
+      <div   className="relative h-[90vh] xl:min-h-[80vh] 2xl:min-h-[70vh] flex items-center justify-center overflow-hidden pt-10 md:pt-0 pb-5 md:pb-0 bg-[#ebf2f6] xl:mt-14">
       <div
         className="absolute inset-0 bg-contain bg-right bg-no-repeat h-[80vh] mt-24 sm:mr-10 rounded-2xl"
          style={{
@@ -13,7 +13,7 @@ const HomePage=()=>{
       
       <div className="relative z-10 container px-10 text-left text-gray-800 font-extrabold">
         <div className="max-w-xl sm:mt-10">
-          <h1 className="text-xl sm:text-3xl 2xl:text-4xl font-bold md:pl-10 my-3 mt-5 mb-10  ">
+          <h1 className="text-xl sm:text-3xl 2xl:text-4xl font-bold md:pl-10 my-3 mt-5 mb-20 sm:mb-10  ">
               Humexa.Adnest — Lead Generation & Digital Growth Experts
           </h1>
           <p  className="text-sm lg:text-lg 2xl:text-xl mb-10 text-gray-800  md:ml-10 leading-relaxed  text-left md:w-[40vw]  2xl:w-[20vw] font-semibold">
