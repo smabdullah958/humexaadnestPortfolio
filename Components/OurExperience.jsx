@@ -44,7 +44,7 @@ const OurExperience = () => {
             <h2 className="text-5xl font-extrabold text-black ">
               <CountUp end={30} duration={3} enableScrollSpy />+
             </h2>
-            <p className="text-lg mt-2 text-gray-800">Completed Projects</p>
+            <p className="text-lg mt-2 text-gray-800">Major Projects</p>
           </motion.div>
 
           {/* 90% Happy Clients */}

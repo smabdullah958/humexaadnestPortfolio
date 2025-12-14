@@ -11,13 +11,13 @@ const About = () => {
           About Humexaadnest
         </h2>
 
-        <p className="text-lg leading-relaxed">
+        <p className="text-lg leading-relaxed text-justify">
           Led by <span className="font-semibold text-blue-700">Humaira</span> — a Meta Ads & 
           Performance Marketing specialist with 3+ years of experience helping US brands grow 
           through precision targeting and psychology-driven campaigns.
         </p>
 
-        <p className="text-lg leading-relaxed">
+        <p className="text-lg leading-relaxed text-justify">
           Expert in generating high-quality leads for Home Services, SaaS companies, Law Firms, 
           Real Estate, and Property Management agencies.
         </p>
