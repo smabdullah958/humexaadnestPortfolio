@@ -67,14 +67,14 @@ SetSubmitting(null)
         </form>
         {/* Contact Info Section */}
         <div className='mb-5 md:mb-0'>
-          <h2 className='text-xl md:text-2xl pb-5 sm:pb-10  md:pb-20 font-bold text-gray-900'>
+          <h2 className='text-xl md:text-2xl text-justify pb-5 sm:pb-10  md:pb-20 font-bold text-gray-900'>
               Let’s Build Something Great Together
             </h2>
           <div className='text-sm font-bold  lg:w-[30vw] flex flex-col justify-start text-justify'>
 
             
 
-            <p className='text-lg  mb-5 font-bold text-gray-900'>
+            <p className='text-lg  mb-5 font-bold text-gray-900 text-justify'>
               Feel free to reach out for collaborations, business , projects, or consultations.
             </p>
 
