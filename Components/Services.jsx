@@ -32,7 +32,7 @@ const Services = () => {
               </h2>
 
               {/* Short Description */}
-              <p className="text-gray-600 leading-relaxed">{item.short}</p>
+              <p className="text-gray-600 leading-relaxed text-justify">{item.short}</p>
 
               {/* Show More Button */}
               <Link

@@ -67,7 +67,7 @@ const PricingCard = ({ plan }) => {
 
   return (
     <div className="border border-gray-300 rounded-2xl p-6 shadow-lg bg-white hover:scale-[1.02] transition ">
-      <h2 className="text-2xl font-bold text-gray-900 mb-2">{plan.title}</h2>
+      <h2 className="text-2xl font-bold text-gray-900 mb-2 text-justify">{plan.title}</h2>
       <div className="text-xl font-semibold text-purple-600">{plan.price}</div>
       <div className="text-sm text-gray-600 mb-4">{plan.adBudget}</div>
 
@@ -83,7 +83,7 @@ const PricingCard = ({ plan }) => {
               <p className="text-xs font-medium text-purple-700">⏳ {item.week}</p>
             )}
             {item.result && (
-              <p className="text-xs text-green-700">⭐ {item.result}</p>
+              <p className="text-xs text-green-700 text-justify">⭐ {item.result}</p>
             )}
           </div>
         ))}
@@ -120,7 +120,7 @@ export default function Pricing() {
         Our Pricing & Plans
       </h1>
 
-        <p className="pb-10">
+        <p className="pb-10 text-justify">
             Our services cost anywhere from $299-$699 a month. depending on how many different services you’re utilizing, your goals and more. Check out our packages and pricing below and schedule a call to get a free, custom quote and proposal today.
         </p>
 

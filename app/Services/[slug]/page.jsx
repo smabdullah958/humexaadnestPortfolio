@@ -23,9 +23,9 @@ export default function ServiceDetails({ params }) {
       </h1>
 
       {/* Short + Image Section */}
-      <div className="flex flex-col md:flex-row items-center justify-around mt-12 px-6 gap-x-10">
+      <div className="flex flex-col md:flex-row items-center justify-around mt-12 pr-5 md:px-6 gap-x-10">
         {/* Short Description */}
-        <div className="md:w-1/2 text-lg text-gray-700 leading-relaxed xl:w-[50%] 2xl:w-[30%] pl-10 2xl:text-xl whitespace-pre-line">
+        <div className="md:w-1/2 text-lg text-gray-700 leading-relaxed xl:w-[50%] 2xl:w-[30%] pl-10 2xl:text-xl whitespace-pre-line text-justify" >
           {service.short}
         </div>
 
@@ -49,12 +49,12 @@ export default function ServiceDetails({ params }) {
         </h2>
 
         {/* Card Container */}
-        <div className="bg-white p-10 rounded-3xl shadow-lg border border-gray-200">
+        <div className="bg-white p-5 md:p-10 text-justify rounded-3xl shadow-lg border border-gray-200">
           {sections.map((sec, i) => (
             <div key={i} className="mb-10">
               {/* Section Title */}
               {sec.startsWith("Key Points:") && (
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                <h3 className="text-xl font-bold text-gray-900 mb-4">
                   Key Points
                 </h3>
               )}

@@ -1,8 +1,17 @@
 "use client";
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { FaCloud, FaBalanceScale, FaBuilding, FaTools } from "react-icons/fa";
-import { MdHomeRepairService, MdTrendingUp, MdWorkspacePremium } from "react-icons/md";
+import {
+  FaCloud,
+  FaBalanceScale,
+  FaBuilding,
+  FaTools,
+} from "react-icons/fa";
+import {
+  MdHomeRepairService,
+  MdTrendingUp,
+  MdWorkspacePremium,
+} from "react-icons/md";
 import { RiVerifiedBadgeFill } from "react-icons/ri";
 
 const TrustSignals = () => {
@@ -17,40 +26,33 @@ const TrustSignals = () => {
     { icon: <RiVerifiedBadgeFill className="text-gray-400 text-3xl mb-3" />, title: "Meta Certified", desc: "Professional Ads Specialist" },
   ];
 
-  const containerRef = useRef(null);
   const [cardsPerView, setCardsPerView] = useState(2);
-  const [currentStep, setCurrentStep] = useState(0);
-  const [cardGap, setCardGap] = useState(24); // gap-6 = 1.5rem = 24px
+  const [currentIndex, setCurrentIndex] = useState(0);
 
-  const updateCards = () => {
-    if (!containerRef.current) return;
-    if (window.innerWidth >= 768) setCardsPerView(3);
-    else setCardsPerView(2);
-  };
-
+  // Responsive cards
   useEffect(() => {
-    updateCards();
-    window.addEventListener("resize", updateCards);
-    return () => window.removeEventListener("resize", updateCards);
+    const resize = () => {
+      setCardsPerView(window.innerWidth >= 768 ? 4 : 2);
+      setCurrentIndex(0);
+    };
+    resize();
+    window.addEventListener("resize", resize);
+    return () => window.removeEventListener("resize", resize);
   }, []);
 
-  // Auto-slide
+  // Auto slide
   useEffect(() => {
-    const interval = setInterval(() => {
-      if (!containerRef.current) return;
+    const maxIndex = industries.length - cardsPerView;
+    if (maxIndex <= 0) return;
 
-      const totalCards = industries.length;
-      const maxStep = totalCards - cardsPerView;
-      setCurrentStep(prev => (prev >= maxStep ? 0 : prev + cardsPerView));
+    const interval = setInterval(() => {
+      setCurrentIndex((prev) =>
+        prev >= maxIndex ? 0 : prev + cardsPerView
+      );
     }, 2500);
 
     return () => clearInterval(interval);
   }, [cardsPerView]);
-
-  // Calculate xOffset including gap
-  const xOffset = containerRef.current
-    ? currentStep * (containerRef.current.offsetWidth / cardsPerView + cardGap)
-    : 0;
 
   return (
     <div className="w-full bg-[#eff4f7] py-10 px-6">
@@ -58,21 +60,25 @@ const TrustSignals = () => {
         Trusted by Industry Leaders Across the US
       </h2>
 
-      <div className="overflow-hidden w-full" ref={containerRef}>
+      <div className="overflow-hidden w-full">
         <motion.div
-          className="flex gap-6"
-          animate={{ x: -xOffset }}
-          transition={{ duration: 0.8 }}
+          className="flex"
+          animate={{
+            x: `-${(currentIndex * 100) / cardsPerView}%`,
+          }}
+          transition={{ duration: 0.7, ease: "easeInOut" }}
         >
           {industries.map((item, index) => (
             <div
               key={index}
-              style={{ minWidth: `${100 / cardsPerView}%` }}
-              className="bg-[#d9d9e1] p-6 rounded-xl shadow-lg border border-purple-700/20 hover:scale-105 transition duration-500"
+              className="flex-shrink-0 px-3"
+              style={{ width: `${100 / cardsPerView}%` }}
             >
-              {item.icon}
-              <h3 className="font-bold text-lg text-black">{item.title}</h3>
-              <p className="text-sm text-black mt-1">{item.desc}</p>
+              <div className="bg-[#d9d9e1] p-2 text-justify rounded-xl shadow-lg border border-purple-700/20 hover:scale-105 transition duration-500 h-full">
+                {item.icon}
+                <h3 className="font-bold text-lg text-black whitespace-normal break-words">{item.title}</h3>
+                <p className="text-sm text-black mt-1">{item.desc}</p>
+              </div>
             </div>
           ))}
         </motion.div>
