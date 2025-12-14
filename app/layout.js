@@ -1,10 +1,16 @@
 import "./globals.css";
 
-
 export const metadata = {
   title: "humexaadnest Marketing Agency",
   description: "humexaadnest is a USA base Marketing Agency",
-};
+icons:{
+  icon:[
+    {
+      url:"/Logo.png",
+      sizes:"192x192"
+    },
+  ],
+}};
 
 
 

@@ -57,7 +57,7 @@ export default function OurValueableClient() {
           {reviews.map((item, index) => (
             <div
               key={index}
-              className="bg-white p-6 rounded-2xl shadow-md flex-shrink-0"
+              className="bg-white sm:p-3 pt-2  rounded-2xl shadow-md shrink-0"
               style={{ width: `calc(${100 / cardsPerView}% - ${cardGap * (cardsPerView - 1) / cardsPerView}px)` }}
             >
                <h4 className="font-semibold text-gray-900 text-center">{item.name}</h4>
