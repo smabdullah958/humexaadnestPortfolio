@@ -3,7 +3,7 @@ import Link from 'next/link'
 const HomePage=()=>{
   return (
     <div  id="home">
-      <div   className="relative h-[90vh] xl:min-h-[80vh] 2xl:min-h-[70vh] flex items-center justify-center overflow-hidden pt-10 md:pt-0 pb-5 md:pb-0 bg-[#ebf2f6] mt-14">
+      <div   className="relative h-[90vh] xl:min-h-[80vh] 2xl:min-h-[70vh] flex items-center justify-center overflow-hidden pt-10 md:pt-0 pb-5 md:pb-0 bg-[#ebf2f6]">
       <div
         className="absolute inset-0 bg-contain bg-right bg-no-repeat h-[80vh] mt-24 sm:mr-10 rounded-2xl"
          style={{
