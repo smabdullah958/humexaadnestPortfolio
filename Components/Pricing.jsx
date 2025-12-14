@@ -120,7 +120,7 @@ export default function Pricing() {
         Our Pricing & Plans
       </h1>
 
-        <p className="pb-10 text-justify">
+        <p className="pb-10 text-justify text-gray-900">
             Our services cost anywhere from $299-$699 a month. depending on how many different services you’re utilizing, your goals and more. Check out our packages and pricing below and schedule a call to get a free, custom quote and proposal today.
         </p>
 

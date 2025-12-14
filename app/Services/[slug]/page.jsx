@@ -18,7 +18,7 @@ export default function ServiceDetails({ params }) {
   return (
     <div className="bg-gray-100 py-16 ">
       {/* Premium Title */}
-      <h1 className="text-center text-4xl font-extrabold bg-gray-900 bg-clip-text pt-10 xl:pt-14 2xl:pt-40">
+      <h1 className="text-center text-4xl font-extrabold text-gray-900 bg-clip-text pt-10 xl:pt-14 2xl:pt-40">
         {service.name}
       </h1>
 
