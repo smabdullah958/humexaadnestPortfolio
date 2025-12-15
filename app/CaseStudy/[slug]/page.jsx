@@ -70,7 +70,7 @@ const Page = ({ params }) => {
      </div>
 
 {/* DETAILS SECTION */}
-<div className="max-w-6xl mx-auto px-5 md:px-8 mt-28 space-y-24">
+<div className="max-w-6xl mx-auto px-5 md:px-8 mt-20 space-y-16 sm:space-y-20">
 
   {/* Background */}
   <section className="bg-gray-50 rounded-3xl p-8 md:p-14 shadow-sm">
