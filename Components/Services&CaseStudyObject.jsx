@@ -139,9 +139,138 @@ result:`
         $15/lead 
         Average CPL
           `,
-    image:"/UseCase4.png"
+    image:"/UseCase4.png",
+    resultImage:["/ResultImage1.png","/ResultImage2.png"]
     },{
   id: 2,
+  title: "Injury Lead Generation for Personal Injury Law Firm",
+  slug: "injury-law-lead-generation",
+  short: `
+    High-intent injury lead generation campaign for a multi-state personal injury law firm in the United States.
+  `,
+  image: "/UseCase5.png",
+
+  background: `
+    Name: Macallum Injury Law Firm<br/>
+    Industry: Personal Injury Law<br/>
+    Business Type: Law Firm / Attorney<br/>
+    Market Served: Florida, Massachusetts, Washington DC, Georgia, New Mexico (USA)<br/><br/>
+    The firm entered the market with no structured digital acquisition system and relied on inconsistent inbound inquiries.
+  `,
+
+  service: `
+    Social Media Management<br/>
+    Web Development
+  `,
+
+  challenges: `
+    <ul>
+      <li>No strong digital presence</li>
+      <li>Low-performing text-based creatives</li>
+      <li>High cost per lead (~$60)</li>
+      <li>Irrelevant and non-victim leads</li>
+      <li>Mixed case inquiries (non-injury cases)</li>
+    </ul>
+  `,
+
+  solutions: `
+    <ul>
+      <li>Rebuilt the acquisition system from scratch</li>
+      <li>Launched attorney-led video creatives</li>
+      <li>Focused messaging on injury-only eligibility</li>
+      <li>Introduced conditional lead forms with qualifying questions</li>
+      <li>Added call ads and message ads for high-intent users</li>
+      <li>Scaled campaigns across five US states</li>
+    </ul>
+  `,
+
+  result: `
+    Total Ad Spend: ~$2,000<br/>
+    Average CPL: ~$20<br/>
+    Total Leads Generated: 180–250 injury leads<br/>
+    Lead-to-Client Ratio: 1 signed case per 5 leads<br/>
+    CTR Improvement: +160%<br/>
+    CPM Reduction: ~35%<br/>
+    Irrelevant Lead Reduction: 40–50%<br/>
+    Six-figure revenue potential generated
+  `,
+
+  OverAllResult: `
+    200+ 
+    Leads in 2 Months
+    +1,900% 
+    Lead Growth
+    $30
+    day Budget Efficiency
+    $15–$20 
+    Average CPL
+  `,
+resultImage:["/ResultImage3.png","/ResultImage4.png"]
+}   ,
+{
+  id: 3,
+  title: "Home Management Lead Generation for Property Owners",
+  slug: "property-management-lead-generation",
+  short: `
+    Lead generation campaign for property owners seeking short-term and long-term management services in Ontario, Canada.
+  `,
+  image: "/UseCase6.png",
+
+  background: `
+    Brand Name: Unique Homes Group<br/>
+    Industry: Home & Property Management<br/>
+    Business Model: Third-Party Property Management Company<br/>
+    Location: Ontario, Canada<br/><br/>
+    The client manages rental properties and ensures consistent income and property maintenance for owners.
+  `,
+
+  service: `
+    Social Media Marketing (Paid Advertising Only)
+  `,
+
+  challenges: `
+    <ul>
+      <li>High CPL (~$40 per lead)</li>
+      <li>Low lead volume after heavy ad spend</li>
+      <li>No scalable paid acquisition system</li>
+      <li>Weak text-based creatives</li>
+      <li>Mixed short-term and long-term intent leads</li>
+    </ul>
+  `,
+
+  solutions: `
+    <ul>
+      <li>Audited and restructured campaign messaging</li>
+      <li>Separated short-term and long-term service intent</li>
+      <li>Used real client-owned video creatives</li>
+      <li>Added on-screen text and SEO-focused captions</li>
+      <li>Introduced testimonial and property walkthrough videos</li>
+      <li>Rotated only high-performing creatives</li>
+    </ul>
+  `,
+
+  result: `
+    Total Leads Generated: 150+ property owner leads<br/>
+    Average CPL: ~$20<br/>
+    CPL Reduction: ~60%<br/>
+    Lead Conversion Ratio: 1 confirmed deal per 6 leads<br/>
+    Video creatives exceeded 3% CTR<br/>
+    High five-figure to six-figure revenue potential generated
+  `,
+
+  OverAllResult: `
+    150+ 
+    Leads in 3 Months
+    +1,300% 
+    Lead Growth
+    $30
+    day Budget Efficiency
+    $15–$20 
+    Average CPL
+  `,
+  resultImage:["/ResultImage5.png","/ResultImage6.png"]
+},{
+  id: 4,
   title: "Construction Company",
   slug: "construction-company",
   short: `
@@ -203,82 +332,8 @@ result:`
     18x
     Increased Social Engagement
   `
-},
-//   ,{
-//     id: 2,
-//     title: "Construction Company",
-//     slug: "construction-company",
-//     short:
-//       "Axiom Structures is a Florida-based structural engineering firm offering high-quality engineering designs, inspections, and consulting services.",
-//     service: "Social Media Management Services",
-//     image: "/UseCase1.png",
-//     background:
-//       "Axiom Structures is a Florida-based structural engineering firm offering high-quality engineering designs, inspections, and consulting services for residential and commercial construction projects.",
-//     challenges:`
-//     Axiom Structures had a strong client track record but lacked social media presence and engagement.
-// Their Instagram had just 100 followers and was not effectively showcasing their capabilities or attracting new leads.
-// Previous content efforts were sporadic and failed to reflect the value of their work or expertise.
-// `,
-//     solutions:`
-//     Branded Social Content: Developed consistent, on-brand content focused on completed projects, service highlights, and clear structural visuals.
-// Audience Growth Strategy: Leveraged strategic hashtags, improved bio/link usage, and crafted high-performing carousel posts to grow reach.
-// Content Buckets for Relevance: Highlighted services, plans, engineering, and renovations to match audience interest.
-// Engagement Tactics: Used calls-to-action, educational tips, and visual storytelling to boost profile visits and interactions.`,
-//     result:`
-//     Facebook Growth: From 169 followers to 766 in less than a year (+353%)
-// Instagram Growth: From 101 followers to 267 in less than a year (+165%)
-// Engagement Surge: Monthly engagement grew with more meaningful interactions and steady audience growth.
-// Reach Expansion: Instagram and Facebook reach rose, targeting potential followers and customers.
-// Facebook Performance: From 54 reach and 1 new follower in March 2024 to 7.8k reach and 57 new followers in January 2025`,
-//   OverAllResult:`+353%
-//               Facebook Growth
-//                   +165%
-//               Instagram Growth
-//                   18x
-//             Increased Social Engagement
-//                     `
-//     },
-//   {
-//     id: 3,
-//     title: "Leadership Consultant",
-//     slug: "leadership-consultant",
-//     short:
-//       "Daryl D. Black is a leadership consultant helping organizations improve decision-making and performance.",
-//     service: "Social Media Advertising Services",
-//     image: "/UseCase2.png",
-//     background:`
-//     Daryl D. Black is a leadership consultant and speaker helping organizations elevate communication, decision-making, and performance under pressure. With a growing presence in the executive coaching space, Daryl sought to generate more qualified leads and raise awareness of his services.`,
-//       challenges:`
-//     Despite his proven track record and compelling brand, Daryl faced major challenges in scaling his visibility and lead flow:
-// Needed to generate consistent qualified leads to support business growth.
-// Had limited brand awareness among new prospects despite a strong value proposition.
-// Required an ad strategy that fit a tight budget without compromising results
-// `,
-//     solutions:`
-//     Humexa Adnest delivered a full-funnel Facebook Ads strategy tailored to his goals:
-// Lead Generation Campaigns: Built Meta ad funnels optimized for contact form submissions and bookings.
-// Agile Optimization: Adjusted creatives, audiences, and copy monthly to lower cost per lead and improve conversions.
-// Full-Service Management: Managed all ads, reporting, and creative needs while maintaining close communication through virtual meetings and email.`,
-//     result:`
-//     Leads in 10 Months: 202
-// Massive Growth: A +1,000% increase in reach and leads
-// Campaign Efficiency: $20/day budget
-// Reach Expansion: Instagram and Facebook reach rose, targeting potential followers and customers.
-// 202 Leads in 10 Months: Generated a steady stream of qualified leads, with peak months delivering over 30 per month.
-// Massive Growth: Grew from just 3 leads in August to 33 leads in February — a 1000%+ increase from early months.
-// Campaign Efficiency: All achieved on a $20/day budget through highly targeted, conversion-focused campaigns.
-// Sustained Momentum: Performance stayed consistent with Humexa Adnest helping maintain  visibility and lead flow.`,
-//       OverAllResult:`
-//                       202+
-//                       Leads in 10 Months
-//                       +1000%
-//                       Massive Growth
-//                       $20/day Budget
-//                       Campaign Efficiency
-//                       `
-//   },
-{
-  id: 3,
+},{
+  id: 5,
   title: "Leadership Consultant",
   slug: "leadership-consultant",
   short: `
@@ -336,55 +391,8 @@ result:`
     $20/day Budget
     Campaign Efficiency
   `
-},
-//   {
-//     id: 4,
-//     title: "Travel Company",
-//     slug: "travel-company",
-//     short:
-//       "A mission-driven travel brand supporting cancer research through bookings.",
-//     service: "Social Media Marketing Services",
-//     image: "/UseCase3.png",
-//     background:`
-//     Power of Partnerships is a mission-driven travel brand that transforms everyday travel bookings into opportunities to support cancer research — at no extra cost to the traveler.
-// They partner with major travel providers like Expedia, VRBO, and Hotels.com, offering personalized booking services and a newly added 24/7 concierge support to make travel simple, impactful, and affordable. Their target audience includes socially conscious travelers across the U.S. who value giving back while exploring the world
-// `,
-//     challenges:`
-//     Power of Partnerships faced the common but critical challenge of growing their community across multiple social media platforms, including Facebook, Instagram, and TikTok.
-// Building a strong, engaged audience was essential to spreading awareness about their mission of supporting cancer research through travel bookings — but despite their efforts, they struggled to achieve the visibility and interaction needed to drive real momentum.
-// Before working with Humexa Adnest , they attempted their own outreach efforts but found it difficult to consistently scale engagement or reach new audiences in a meaningful way. After conducting research and exploring solutions, they discovered Humexa Adnest and after a positive and informative consultation with the sales team, decided to partner together to elevate their social media presence.
-// `,
-//     solutions:`
-//     Strategy and Execution:
-// To meet Power of Partnerships’ goals, we built authentic engagement, increased brand visibility, and aligned their content with the ever-evolving trends of social media platforms like Instagram, Facebook, and TikTok.
-// We regularly met with our client, Dee, to discuss strategy updates, upcoming promotions, brand partnerships, and social media trends. These meetings allowed us to ensure the social media content calendar stayed agile, relevant, and responsive to his real-time business activities.
-// Key strategies implemented included:
-// Running engagement and page-like ad campaigns to increase reach and build a loyal community.
-// Producing engaging Reels and TikTok videos that aligned with trending formats and sound styles to improve organic growth.
-// Optimising the client’s Instagram bio to be more authentic, relatable, and aligned with the brand’s mission, making the profile more discoverable and trustworthy.
-// Adjusting content based on algorithm changes to maintain strong reach and interactions across all platforms.
-// A unique aspect of this partnership was the close, ongoing collaboration with the client — blending his ideas, brand deals, and evolving promotions directly into the real-time social media strategy, ensuring that all posts were timely, personalized, and impactful.
-// `      ,
-//     result:`
-//     Facebook Reach: Increased by 700.6k%
-// Facebook Followers: Increased of 2.2k
-// Video Views: 57.8k views to his Facebook page
-// Instagram Visits: Increased of 3k
-// Instagram Followers: Gained nearly 500
-// Instagram Interactions: 2.5k Interactions with content on Instagram`,
-//   OverAllResult:`
-//                   +700k%
-//               Facebook Reach Growth
-//                   +57k
-//               Video Views
-//                   3k 
-//               Instagram Visits
-//                     2.5k
-//               Instagram Interactions
-//               `
-//     },
-{
-  id: 4,
+},{
+  id: 6,
   title: "Travel Company",
   slug: "travel-company",
   short: `

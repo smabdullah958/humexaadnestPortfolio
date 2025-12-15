@@ -17,7 +17,7 @@ const Page = ({ params }) => {
 
   return (
     <div className="max-w-screen py-8">
-       <div className="relative w-full overflow-hidden bg-gradient-to-r from-blue-100 via-white to-purple-100 py-10 sm:py-16">
+       <div className="relative w-full overflow-hidden bg-linear-to-r from-blue-100 via-white to-purple-100 py-10 sm:py-16">
   {/* Decorative blurred shapes */}
   <div className="absolute -top-10 -left-10 w-72 h-72 bg-blue-300 rounded-full blur-3xl opacity-30"></div>
   <div className="absolute top-20 -right-10 w-72 h-72 bg-purple-300 rounded-full blur-3xl opacity-30"></div>
@@ -118,7 +118,7 @@ const Page = ({ params }) => {
   </section>
 
   {/* Final Result */}
-  <section className="relative bg-gradient-to-r from-blue-600 to-purple-600 rounded-3xl p-10 md:p-16 text-white overflow-hidden">
+  <section className="relative bg-linear-to-r from-blue-600 to-purple-600 rounded-3xl p-10 md:p-16 text-white overflow-hidden">
 
     {/* Glow */}
     <div className="absolute -top-10 -right-10 w-72 h-72 bg-white/20 rounded-full blur-3xl"></div>
@@ -130,6 +130,28 @@ const Page = ({ params }) => {
     <p 
     dangerouslySetInnerHTML={{ __html: caseStudy.result }}
     className="relative text-lg md:text-xl leading-relaxed"/>
+
+  {caseStudy.resultImage && (
+    <div className="relative grid grid-cols-1 sm:grid-cols-2 gap-6 mt-6">
+      {caseStudy.resultImage.map((img, index) => (
+        <div
+          key={index}
+          className="bg-white rounded-2xl p-3 shadow-lg"
+        >
+          <Image
+            src={img}
+            alt={`${caseStudy.title} result ${index + 1}`}
+            width={500}
+            height={300}
+            className="rounded-xl object-cover"
+            loading="lazy"
+          />
+        </div>
+      ))}
+    </div>
+  )}
+
+  
   </section>
 
 </div>
