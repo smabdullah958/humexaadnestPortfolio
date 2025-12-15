@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import React from "react";
-import { ServicesObject } from "@/Components/ServicesObject";
+import { ServicesObject } from "@/Components/Services&CaseStudyObject";
 const Services = () => {
  return (
     <div

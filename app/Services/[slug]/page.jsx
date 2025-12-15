@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import { ServicesObject } from "@/Components/ServicesObject";
+import { ServicesObject } from "@/Components/Services&CaseStudyObject";
 import { FaCheckCircle } from "react-icons/fa";
 
 export default function ServiceDetails({ params }) {

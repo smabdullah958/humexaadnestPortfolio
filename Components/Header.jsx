@@ -35,7 +35,7 @@ const Header = () => {
         <Link href="/#about" className='sm:text-sm md:text-lg text-gray-800 hover:text-gray-900 text-md font-medium transition-all duration-300  hover:scale-110'>About</Link>
         <Link href="/#services" className='sm:text-sm md:text-lg text-gray-800 hover:text-gray-900 text-md font-medium transition-all duration-300  hover:scale-110'>Services</Link>
         <Link href="/#Pricing" className='sm:text-sm md:text-lg text-gray-800 hover:text-gray-900 text-md font-medium transition-all duration-300  hover:scale-110'>Pricing</Link>
-        <Link href="/#Projects" className='sm:text-sm md:text-lg text-gray-800 hover:text-gray-900 text-md font-medium transition-all duration-300  hover:scale-110'>Projects</Link>
+        <Link href="/#CaseStudy" className='sm:text-sm md:text-lg text-gray-800 hover:text-gray-900 text-md font-medium transition-all duration-300  hover:scale-110'>Case Study</Link>
         <Link href="/#Contact" className='sm:text-sm md:text-lg text-gray-800 hover:text-gray-900 text-md font-medium transition-all duration-300  hover:scale-110 mr-5'>Contact</Link>
       </div>
 <Link href="https://wa.me/923161927285?text=Hi%20I%20want%20to%20book%20a%2015-minute%20call."
@@ -75,7 +75,8 @@ const Header = () => {
           <Link href="/#about" onClick={CloseNavBar} className='text-gray-800 text-lg font-medium transition-all duration-300 hover:text-gray-900 hover:scale-105'>About</Link>
           <Link href="/#services" onClick={CloseNavBar} className='text-gray-800  text-lg font-medium transition-all duration-300 hover:text-gray-900 hover:scale-105'>Services</Link>
           <Link  href="/#Pricing" onClick={CloseNavBar} className='text-gray-800 text-lg font-medium transition-all duration-300 hover:text-gray-900 hover:scale-105'>Pricing</Link>
-          <Link href="/#Projects" onClick={CloseNavBar} className='text-gray-800 text-lg font-medium transition-all duration-300 hover:text-gray-900 hover:scale-105'>Projects</Link>
+          <Link href="/#CaseStudy" onClick={CloseNavBar} className='text-gray-800 text-lg font-medium transition-all duration-300 hover:text-gray-900 hover:scale-105'>
+          Case Study</Link>
           <Link href="/#Contact" onClick={CloseNavBar} className='text-gray-800 text-lg font-medium transition-all duration-300 hover:text-gray-900 hover:scale-105'>Contact</Link>
         </div>
       )}

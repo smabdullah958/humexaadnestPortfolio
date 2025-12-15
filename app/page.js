@@ -10,6 +10,7 @@ import Pricing from '@/Components/Pricing'
 import OurValueableClient from '@/Components/OurValueableClient'
 import ContactUs from '@/Components/Contact'
 import Footer from "@/Components/footer.jsx"
+import CaseStudy from '@/Components/CaseStudy'
 const page = () => {
   return (
     <div>
@@ -20,6 +21,7 @@ const page = () => {
       <About/>
       <OurExperience />
       <Services />  
+      <CaseStudy />
       <Pricing />
       <OurValueableClient />
       <ContactUs />
