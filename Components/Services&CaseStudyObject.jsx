@@ -140,124 +140,306 @@ result:`
         Average CPL
           `,
     image:"/UseCase4.png"
-    }
-  ,{
-    id: 2,
-    title: "Construction Company",
-    slug: "construction-company",
-    short:
-      "Axiom Structures is a Florida-based structural engineering firm offering high-quality engineering designs, inspections, and consulting services.",
-    service: "Social Media Management Services",
-    image: "/UseCase1.png",
-    background:
-      "Axiom Structures is a Florida-based structural engineering firm offering high-quality engineering designs, inspections, and consulting services for residential and commercial construction projects.",
-    challenges:`
-    Axiom Structures had a strong client track record but lacked social media presence and engagement.
-Their Instagram had just 100 followers and was not effectively showcasing their capabilities or attracting new leads.
-Previous content efforts were sporadic and failed to reflect the value of their work or expertise.
-`,
-    solutions:`
-    Branded Social Content: Developed consistent, on-brand content focused on completed projects, service highlights, and clear structural visuals.
-Audience Growth Strategy: Leveraged strategic hashtags, improved bio/link usage, and crafted high-performing carousel posts to grow reach.
-Content Buckets for Relevance: Highlighted services, plans, engineering, and renovations to match audience interest.
-Engagement Tactics: Used calls-to-action, educational tips, and visual storytelling to boost profile visits and interactions.`,
-    result:`
-    Facebook Growth: From 169 followers to 766 in less than a year (+353%)
-Instagram Growth: From 101 followers to 267 in less than a year (+165%)
-Engagement Surge: Monthly engagement grew with more meaningful interactions and steady audience growth.
-Reach Expansion: Instagram and Facebook reach rose, targeting potential followers and customers.
-Facebook Performance: From 54 reach and 1 new follower in March 2024 to 7.8k reach and 57 new followers in January 2025`,
-  OverAllResult:`+353%
-              Facebook Growth
-                  +165%
-              Instagram Growth
-                  18x
-            Increased Social Engagement
-                    `
-    },
-  {
-    id: 3,
-    title: "Leadership Consultant",
-    slug: "leadership-consultant",
-    short:
-      "Daryl D. Black is a leadership consultant helping organizations improve decision-making and performance.",
-    service: "Social Media Advertising Services",
-    image: "/UseCase2.png",
-    background:`
-    Daryl D. Black is a leadership consultant and speaker helping organizations elevate communication, decision-making, and performance under pressure. With a growing presence in the executive coaching space, Daryl sought to generate more qualified leads and raise awareness of his services.`,
-      challenges:`
-    Despite his proven track record and compelling brand, Daryl faced major challenges in scaling his visibility and lead flow:
-Needed to generate consistent qualified leads to support business growth.
-Had limited brand awareness among new prospects despite a strong value proposition.
-Required an ad strategy that fit a tight budget without compromising results
-`,
-    solutions:`
-    Humexa Adnest delivered a full-funnel Facebook Ads strategy tailored to his goals:
-Lead Generation Campaigns: Built Meta ad funnels optimized for contact form submissions and bookings.
-Agile Optimization: Adjusted creatives, audiences, and copy monthly to lower cost per lead and improve conversions.
-Full-Service Management: Managed all ads, reporting, and creative needs while maintaining close communication through virtual meetings and email.`,
-    result:`
-    Leads in 10 Months: 202
-Massive Growth: A +1,000% increase in reach and leads
-Campaign Efficiency: $20/day budget
-Reach Expansion: Instagram and Facebook reach rose, targeting potential followers and customers.
-202 Leads in 10 Months: Generated a steady stream of qualified leads, with peak months delivering over 30 per month.
-Massive Growth: Grew from just 3 leads in August to 33 leads in February — a 1000%+ increase from early months.
-Campaign Efficiency: All achieved on a $20/day budget through highly targeted, conversion-focused campaigns.
-Sustained Momentum: Performance stayed consistent with Humexa Adnest helping maintain  visibility and lead flow.`,
-      OverAllResult:`
-                      202+
-                      Leads in 10 Months
-                      +1000%
-                      Massive Growth
-                      $20/day Budget
-                      Campaign Efficiency
-                      `
-  },
-  {
-    id: 4,
-    title: "Travel Company",
-    slug: "travel-company",
-    short:
-      "A mission-driven travel brand supporting cancer research through bookings.",
-    service: "Social Media Marketing Services",
-    image: "/UseCase3.png",
-    background:`
-    Power of Partnerships is a mission-driven travel brand that transforms everyday travel bookings into opportunities to support cancer research — at no extra cost to the traveler.
-They partner with major travel providers like Expedia, VRBO, and Hotels.com, offering personalized booking services and a newly added 24/7 concierge support to make travel simple, impactful, and affordable. Their target audience includes socially conscious travelers across the U.S. who value giving back while exploring the world
-`,
-    challenges:`
-    Power of Partnerships faced the common but critical challenge of growing their community across multiple social media platforms, including Facebook, Instagram, and TikTok.
-Building a strong, engaged audience was essential to spreading awareness about their mission of supporting cancer research through travel bookings — but despite their efforts, they struggled to achieve the visibility and interaction needed to drive real momentum.
-Before working with Humexa Adnest , they attempted their own outreach efforts but found it difficult to consistently scale engagement or reach new audiences in a meaningful way. After conducting research and exploring solutions, they discovered Humexa Adnest and after a positive and informative consultation with the sales team, decided to partner together to elevate their social media presence.
-`,
-    solutions:`
-    Strategy and Execution:
-To meet Power of Partnerships’ goals, we built authentic engagement, increased brand visibility, and aligned their content with the ever-evolving trends of social media platforms like Instagram, Facebook, and TikTok.
-We regularly met with our client, Dee, to discuss strategy updates, upcoming promotions, brand partnerships, and social media trends. These meetings allowed us to ensure the social media content calendar stayed agile, relevant, and responsive to his real-time business activities.
-Key strategies implemented included:
-Running engagement and page-like ad campaigns to increase reach and build a loyal community.
-Producing engaging Reels and TikTok videos that aligned with trending formats and sound styles to improve organic growth.
-Optimising the client’s Instagram bio to be more authentic, relatable, and aligned with the brand’s mission, making the profile more discoverable and trustworthy.
-Adjusting content based on algorithm changes to maintain strong reach and interactions across all platforms.
-A unique aspect of this partnership was the close, ongoing collaboration with the client — blending his ideas, brand deals, and evolving promotions directly into the real-time social media strategy, ensuring that all posts were timely, personalized, and impactful.
-`      ,
-    result:`
-    Facebook Reach: Increased by 700.6k%
-Facebook Followers: Increased of 2.2k
-Video Views: 57.8k views to his Facebook page
-Instagram Visits: Increased of 3k
-Instagram Followers: Gained nearly 500
-Instagram Interactions: 2.5k Interactions with content on Instagram`,
-  OverAllResult:`
-                  +700k%
-              Facebook Reach Growth
-                  +57k
-              Video Views
-                  3k 
-              Instagram Visits
-                    2.5k
-              Instagram Interactions
-              `
-    },
+    },{
+  id: 2,
+  title: "Construction Company",
+  slug: "construction-company",
+  short: `
+    Axiom Structures is a Florida-based structural engineering firm offering high-quality engineering designs, inspections, and consulting services.
+  `,
+  image: "/UseCase1.png",
+
+  background: `
+    <b>Client Industry:</b> <span class="text-sm">Structural Engineering</span><br/>
+    <b>Business Type:</b> <span class="text-sm">Engineering & Consulting Firm</span><br/>
+    <b>Market:</b> <span class="text-sm">Florida, USA</span><br/><br/>
+    Axiom Structures provides professional engineering services for residential and commercial construction projects, focusing on quality, compliance, and long-term structural integrity.
+  `,
+
+  service: `
+  Social Media Management Services
+  `,
+
+  challenges: `
+    <ul>
+      <li>❌ Very low social media presence</li>
+      <li>❌ Only ~100 Instagram followers</li>
+      <li>❌ Inconsistent posting strategy</li>
+      <li>❌ Services not visually communicated</li>
+    </ul>
+  `,
+
+  solutions: `
+    <b>Branded Social Content</b><br/>
+    <ul>
+      <li>Consistent, on-brand project showcases</li>
+      <li>Clear service highlights with visuals</li>
+      <li>Professional engineering-focused creatives</li>
+    </ul>
+
+    <b>Audience Growth Strategy</b><br/>
+    <ul>
+      <li>Optimized bio & profile links</li>
+      <li>Strategic hashtags for reach</li>
+      <li>High-performing carousel posts</li>
+    </ul>
+
+    <i>Content was aligned with audience interest to build credibility and engagement.</i>
+  `,
+
+  result: `
+    Facebook Growth: +353%<br/>
+    Instagram Growth: +165%<br/>
+    Engagement Surge: Significant monthly increase<br/>
+    Reach Expansion: Multi-platform growth<br/>
+    Facebook Reach: From 54 to 7.8k in under a year
+  `,
+
+  OverAllResult: `
+    +353%
+    Facebook Growth
+    +165%
+    Instagram Growth
+    18x
+    Increased Social Engagement
+  `
+},
+//   ,{
+//     id: 2,
+//     title: "Construction Company",
+//     slug: "construction-company",
+//     short:
+//       "Axiom Structures is a Florida-based structural engineering firm offering high-quality engineering designs, inspections, and consulting services.",
+//     service: "Social Media Management Services",
+//     image: "/UseCase1.png",
+//     background:
+//       "Axiom Structures is a Florida-based structural engineering firm offering high-quality engineering designs, inspections, and consulting services for residential and commercial construction projects.",
+//     challenges:`
+//     Axiom Structures had a strong client track record but lacked social media presence and engagement.
+// Their Instagram had just 100 followers and was not effectively showcasing their capabilities or attracting new leads.
+// Previous content efforts were sporadic and failed to reflect the value of their work or expertise.
+// `,
+//     solutions:`
+//     Branded Social Content: Developed consistent, on-brand content focused on completed projects, service highlights, and clear structural visuals.
+// Audience Growth Strategy: Leveraged strategic hashtags, improved bio/link usage, and crafted high-performing carousel posts to grow reach.
+// Content Buckets for Relevance: Highlighted services, plans, engineering, and renovations to match audience interest.
+// Engagement Tactics: Used calls-to-action, educational tips, and visual storytelling to boost profile visits and interactions.`,
+//     result:`
+//     Facebook Growth: From 169 followers to 766 in less than a year (+353%)
+// Instagram Growth: From 101 followers to 267 in less than a year (+165%)
+// Engagement Surge: Monthly engagement grew with more meaningful interactions and steady audience growth.
+// Reach Expansion: Instagram and Facebook reach rose, targeting potential followers and customers.
+// Facebook Performance: From 54 reach and 1 new follower in March 2024 to 7.8k reach and 57 new followers in January 2025`,
+//   OverAllResult:`+353%
+//               Facebook Growth
+//                   +165%
+//               Instagram Growth
+//                   18x
+//             Increased Social Engagement
+//                     `
+//     },
+//   {
+//     id: 3,
+//     title: "Leadership Consultant",
+//     slug: "leadership-consultant",
+//     short:
+//       "Daryl D. Black is a leadership consultant helping organizations improve decision-making and performance.",
+//     service: "Social Media Advertising Services",
+//     image: "/UseCase2.png",
+//     background:`
+//     Daryl D. Black is a leadership consultant and speaker helping organizations elevate communication, decision-making, and performance under pressure. With a growing presence in the executive coaching space, Daryl sought to generate more qualified leads and raise awareness of his services.`,
+//       challenges:`
+//     Despite his proven track record and compelling brand, Daryl faced major challenges in scaling his visibility and lead flow:
+// Needed to generate consistent qualified leads to support business growth.
+// Had limited brand awareness among new prospects despite a strong value proposition.
+// Required an ad strategy that fit a tight budget without compromising results
+// `,
+//     solutions:`
+//     Humexa Adnest delivered a full-funnel Facebook Ads strategy tailored to his goals:
+// Lead Generation Campaigns: Built Meta ad funnels optimized for contact form submissions and bookings.
+// Agile Optimization: Adjusted creatives, audiences, and copy monthly to lower cost per lead and improve conversions.
+// Full-Service Management: Managed all ads, reporting, and creative needs while maintaining close communication through virtual meetings and email.`,
+//     result:`
+//     Leads in 10 Months: 202
+// Massive Growth: A +1,000% increase in reach and leads
+// Campaign Efficiency: $20/day budget
+// Reach Expansion: Instagram and Facebook reach rose, targeting potential followers and customers.
+// 202 Leads in 10 Months: Generated a steady stream of qualified leads, with peak months delivering over 30 per month.
+// Massive Growth: Grew from just 3 leads in August to 33 leads in February — a 1000%+ increase from early months.
+// Campaign Efficiency: All achieved on a $20/day budget through highly targeted, conversion-focused campaigns.
+// Sustained Momentum: Performance stayed consistent with Humexa Adnest helping maintain  visibility and lead flow.`,
+//       OverAllResult:`
+//                       202+
+//                       Leads in 10 Months
+//                       +1000%
+//                       Massive Growth
+//                       $20/day Budget
+//                       Campaign Efficiency
+//                       `
+//   },
+{
+  id: 3,
+  title: "Leadership Consultant",
+  slug: "leadership-consultant",
+  short: `
+    Daryl D. Black is a leadership consultant helping organizations improve decision-making and performance.
+  `,
+  image: "/UseCase2.png",
+
+  background: `
+    <b>Client Industry:</b> <span class="text-sm">Leadership & Executive Coaching</span><br/>
+    <b>Business Type:</b> <span class="text-sm">Consultant & Speaker</span><br/>
+    <b>Market:</b> <span class="text-sm">United States</span><br/><br/>
+    Daryl works with organizations to enhance communication, decision-making, and leadership under pressure.
+  `,
+
+  service: `
+    Social Media Advertising Services
+  `,
+
+  challenges: `
+    <ul>
+      <li>❌ Low brand awareness among new prospects</li>
+      <li>❌ Inconsistent qualified lead flow</li>
+      <li>❌ Limited daily ad budget</li>
+    </ul>
+  `,
+
+  solutions: `
+    <b>Full-Funnel Facebook Ads</b><br/>
+    <ul>
+      <li>Lead generation campaigns</li>
+      <li>Contact form & booking optimization</li>
+      <li>Audience refinement monthly</li>
+    </ul>
+
+    <b>Agile Optimization</b><br/>
+    <ul>
+      <li>Creative & copy testing</li>
+      <li>Budget-efficient scaling</li>
+      <li>Monthly performance reviews</li>
+    </ul>
+  `,
+
+  result: `
+    Total Leads: 202 in 10 Months<br/>
+    Growth: +1000% increase in reach & leads<br/>
+    Budget Efficiency: $20/day<br/>
+    Peak Performance: 33 leads in best month
+  `,
+
+  OverAllResult: `
+    202+
+    Leads in 10 Months
+    +1000%
+    Massive Growth
+    $20/day Budget
+    Campaign Efficiency
+  `
+},
+//   {
+//     id: 4,
+//     title: "Travel Company",
+//     slug: "travel-company",
+//     short:
+//       "A mission-driven travel brand supporting cancer research through bookings.",
+//     service: "Social Media Marketing Services",
+//     image: "/UseCase3.png",
+//     background:`
+//     Power of Partnerships is a mission-driven travel brand that transforms everyday travel bookings into opportunities to support cancer research — at no extra cost to the traveler.
+// They partner with major travel providers like Expedia, VRBO, and Hotels.com, offering personalized booking services and a newly added 24/7 concierge support to make travel simple, impactful, and affordable. Their target audience includes socially conscious travelers across the U.S. who value giving back while exploring the world
+// `,
+//     challenges:`
+//     Power of Partnerships faced the common but critical challenge of growing their community across multiple social media platforms, including Facebook, Instagram, and TikTok.
+// Building a strong, engaged audience was essential to spreading awareness about their mission of supporting cancer research through travel bookings — but despite their efforts, they struggled to achieve the visibility and interaction needed to drive real momentum.
+// Before working with Humexa Adnest , they attempted their own outreach efforts but found it difficult to consistently scale engagement or reach new audiences in a meaningful way. After conducting research and exploring solutions, they discovered Humexa Adnest and after a positive and informative consultation with the sales team, decided to partner together to elevate their social media presence.
+// `,
+//     solutions:`
+//     Strategy and Execution:
+// To meet Power of Partnerships’ goals, we built authentic engagement, increased brand visibility, and aligned their content with the ever-evolving trends of social media platforms like Instagram, Facebook, and TikTok.
+// We regularly met with our client, Dee, to discuss strategy updates, upcoming promotions, brand partnerships, and social media trends. These meetings allowed us to ensure the social media content calendar stayed agile, relevant, and responsive to his real-time business activities.
+// Key strategies implemented included:
+// Running engagement and page-like ad campaigns to increase reach and build a loyal community.
+// Producing engaging Reels and TikTok videos that aligned with trending formats and sound styles to improve organic growth.
+// Optimising the client’s Instagram bio to be more authentic, relatable, and aligned with the brand’s mission, making the profile more discoverable and trustworthy.
+// Adjusting content based on algorithm changes to maintain strong reach and interactions across all platforms.
+// A unique aspect of this partnership was the close, ongoing collaboration with the client — blending his ideas, brand deals, and evolving promotions directly into the real-time social media strategy, ensuring that all posts were timely, personalized, and impactful.
+// `      ,
+//     result:`
+//     Facebook Reach: Increased by 700.6k%
+// Facebook Followers: Increased of 2.2k
+// Video Views: 57.8k views to his Facebook page
+// Instagram Visits: Increased of 3k
+// Instagram Followers: Gained nearly 500
+// Instagram Interactions: 2.5k Interactions with content on Instagram`,
+//   OverAllResult:`
+//                   +700k%
+//               Facebook Reach Growth
+//                   +57k
+//               Video Views
+//                   3k 
+//               Instagram Visits
+//                     2.5k
+//               Instagram Interactions
+//               `
+//     },
+{
+  id: 4,
+  title: "Travel Company",
+  slug: "travel-company",
+  short: `
+    A mission-driven travel brand supporting cancer research through bookings.
+  `,
+  image: "/UseCase3.png",
+
+  background: `
+    <b>Client Industry:</b> <span class="text-sm">Travel & Tourism</span><br/>
+    <b>Business Type:</b> <span class="text-sm">Mission-Driven Travel Platform</span><br/>
+    <b>Market:</b> <span class="text-sm">United States</span><br/><br/>
+    Power of Partnerships turns everyday travel bookings into donations for cancer research, without additional cost to travelers.
+  `,
+
+  service: `
+    Social Media Marketing Services
+  `,
+
+  challenges: `
+    <ul>
+      <li>❌ Low engagement across platforms</li>
+      <li>❌ Difficulty scaling reach organically</li>
+      <li>❌ Inconsistent visibility</li>
+    </ul>
+  `,
+
+  solutions: `
+    <b>Engagement & Growth Strategy</b><br/>
+    <ul>
+      <li>Page-like & engagement ad campaigns</li>
+      <li>Reels & TikTok trend-based content</li>
+      <li>Optimized Instagram bio & branding</li>
+    </ul>
+
+    <i>Client collaboration ensured real-time, relevant, and authentic content.</i>
+  `,
+
+  result: `
+    Facebook Reach: +700k%<br/>
+    Facebook Followers: Increased of 2.2k<br/>
+    Video Views: 57k+<br/>
+    Instagram Visits: +3k<br/>
+    Instagram Followers: Gained nearly 500<br/>
+    Instagram Interactions: 2.5k+
+  `,
+
+  OverAllResult: `
+    +700k%
+    Facebook Reach Growth
+    +57k
+    Video Views
+    3k
+    Instagram Visits
+    2.5k
+    Instagram Interactions
+  `
+},
 ];
