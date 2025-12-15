@@ -17,8 +17,7 @@ export default function CaseStudy() {
           <motion.div
             key={item.id}
             whileHover={{ y: -6 }}
-            className="bg-white rounded-2xl shadow-lg border overflow-hidden
-                       flex flex-col h-full"
+            className="bg-white rounded-2xl shadow-lg border overflow-hidden flex flex-col h-full"
           >
             {/* Fixed Image Height */}
             <div className="relative w-full h-48">
@@ -36,8 +35,7 @@ export default function CaseStudy() {
               
               <span
                 dangerouslySetInnerHTML={{ __html: item.service }}
-                className="inline-flex w-fit px-3 py-1 text-xs font-semibold uppercase
-                           tracking-wider text-indigo-700 bg-indigo-100 rounded-full"
+                className="inline-flex w-fit px-3 py-1 text-xs font-semibold uppercase tracking-wider text-indigo-700 bg-indigo-100 rounded-full"
               />
 
               <h3 className="text-2xl font-bold">{item.title}</h3>
@@ -56,9 +54,7 @@ export default function CaseStudy() {
               {/* Button pushed to bottom */}
               <Link
                 href={`/CaseStudy/${item.slug}`}
-                className="mt-auto w-full text-center rounded-xl
-                           bg-black text-white py-2 text-sm
-                           hover:bg-gray-800 transition"
+                className="mt-auto w-full text-center rounded-xl bg-black text-white py-2 text-smhover:bg-gray-800 transition"
               >
                 View Full Case Study
               </Link>
