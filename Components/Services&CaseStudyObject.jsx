@@ -139,7 +139,7 @@ result:`
         $15/lead 
         Average CPL
           `,
-    image:"/UseCase4.png",
+    image:"/UseCase1.png",
     resultImage:["/ResultImage1.png","/ResultImage2.png"]
     },{
   id: 2,
@@ -148,7 +148,7 @@ result:`
   short: `
     High-intent injury lead generation campaign for a multi-state personal injury law firm in the United States.
   `,
-  image: "/UseCase5.png",
+  image: "/UseCase2.png",
 
   background: `
     Name: Macallum Injury Law Firm<br/>
@@ -214,7 +214,7 @@ resultImage:["/ResultImage3.png","/ResultImage4.png"]
   short: `
     Lead generation campaign for property owners seeking short-term and long-term management services in Ontario, Canada.
   `,
-  image: "/UseCase6.png",
+  image: "/UseCase3.png",
 
   background: `
     Brand Name: Unique Homes Group<br/>
@@ -276,7 +276,7 @@ resultImage:["/ResultImage3.png","/ResultImage4.png"]
   short: `
     Axiom Structures is a Florida-based structural engineering firm offering high-quality engineering designs, inspections, and consulting services.
   `,
-  image: "/UseCase1.png",
+  image: "/UseCase4.png",
 
   background: `
     <b>Client Industry:</b> <span class="text-sm">Structural Engineering</span><br/>
@@ -339,7 +339,7 @@ resultImage:["/ResultImage3.png","/ResultImage4.png"]
   short: `
     Daryl D. Black is a leadership consultant helping organizations improve decision-making and performance.
   `,
-  image: "/UseCase2.png",
+  image: "/UseCase5.png",
 
   background: `
     <b>Client Industry:</b> <span class="text-sm">Leadership & Executive Coaching</span><br/>
@@ -398,7 +398,7 @@ resultImage:["/ResultImage3.png","/ResultImage4.png"]
   short: `
     A mission-driven travel brand supporting cancer research through bookings.
   `,
-  image: "/UseCase3.png",
+  image: "/UseCase6.png",
 
   background: `
     <b>Client Industry:</b> <span class="text-sm">Travel & Tourism</span><br/>
