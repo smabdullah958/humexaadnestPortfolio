@@ -115,20 +115,20 @@ export const caseStudies = [
           <li>Restaurant owners & managers</li>
         <li>POS & business software interests</li>
         <li>Business admins & decision-makers</li>
-<i>Underperforming audiences were eliminated within 72-hour optimization windows.<i><br/>
+<i>Underperforming audiences were eliminated within 72-hour optimization windows.</i><br/>
 <b>Offer-Led Creative System </b><br/>
-Problem → Solution → Advantage framework
-Strong incentive-based messaging
-Copy-level qualification to eliminate non-restaurant user
-This shift increased CTR by 180% and stabilized CPLs.
+Problem → Solution → Advantage framework<br/>
+Strong incentive-based messaging<br/>
+Copy-level qualification to eliminate non-restaurant user<br/>
+This shift increased CTR by 180% and stabilized CPLs.<br/>
 `,
 result:`
-      Monthly Ad Spend: $2,000+
-      Average Cost Per Lead: $10–$15
-      Leads Generated: 150+ per month
-      Reach Growth: +750%
-      Lead Volume Growth: +1,200% (from zero baseline)
-      Cost Efficiency: 30–50% below POS industry CPL average`,
+      Monthly Ad Spend: $2,000+<br/>
+      Average Cost Per Lead: $10–$15<br/>
+      Leads Generated: 150+ per month<br/>
+      Reach Growth: +750%<br/>
+      Lead Volume Growth: +1,200% (from zero baseline)<br/>
+      Cost Efficiency: 30–50% below POS industry CPL average<br/>`,
   OverAllResult:`
       400+
       Leads (in 3 Months)

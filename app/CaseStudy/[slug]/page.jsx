@@ -37,6 +37,7 @@ const Page = ({ params }) => {
         loading="lazy" className="rounded-2xl shadow-xl 2xl:mt-20  " 
         />
 <div className="grid grid-cols-1 gap-6 mt-10">
+ <h1 className="text-3xl sm:text-4xl font-extrabold text-center">Result</h1>
   {(() => {
     const lines = caseStudy.OverAllResult
       .split("\n")
