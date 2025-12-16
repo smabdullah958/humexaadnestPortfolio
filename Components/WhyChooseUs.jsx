@@ -10,7 +10,7 @@ const WhyChooseUs = () => {
       <div className="order-1 md:order-2 space-y-6">
         
         <h2 className="text-3xl lg:text-4xl font-bold text-gray-900">
-          Why Choose <span className="text-purple-600">Humexa.Adnest</span>?
+          Why Choose <span className="text-purple-600">HUMEXA ADNEST</span>?
         </h2>
 
         <p className="text-gray-600 text-lg">

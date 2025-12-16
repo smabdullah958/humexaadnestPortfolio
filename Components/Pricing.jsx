@@ -69,7 +69,7 @@ const PricingCard = ({ plan }) => {
     <div className="border border-gray-300 rounded-2xl p-6 shadow-lg bg-white hover:scale-[1.02] transition ">
       <h2 className="text-2xl font-bold text-gray-900 mb-2 text-justify">{plan.title}</h2>
       <div className="text-xl font-semibold text-purple-600">{plan.price}</div>
-      <div className="text-sm text-gray-600 mb-4">{plan.adBudget}</div>
+      <div className="text-sm text-purple-600 mb-4">{plan.adBudget}</div>
 
       <div className="space-y-4 max-h-96 overflow-y-auto pr-2">
         {visibleDeliverables.map((item, index) => (
@@ -103,7 +103,7 @@ const PricingCard = ({ plan }) => {
       <Link
         href="https://wa.me/923161927285?text=Hi%20I%20want%20to%20book%20a%2015-minute%20call."
         target="_blank"
-        className="sm:hidden md:block px-6 py-3 bg-purple-600 text-white font-semibold rounded-xl hover:bg-purple-700 transition mt-5"
+        className="sm:hidden md:block px-6 py-3 bg-purple-600 hover:bg-purple-700 text-white font-semibold rounded-xl  transition mt-5"
       >
         Book Call
       </Link>
@@ -116,7 +116,7 @@ const PricingCard = ({ plan }) => {
 export default function Pricing() {
   return (
     <div id="Pricing" className="py-20 px-6 bg-gray-50">
-      <h1 className="text-center text-4xl font-bold text-gray-900 mb-10 ">
+      <h1 className="text-center text-4xl font-bold text-purple-700 mb-10 ">
         Our Pricing & Plans
       </h1>
 

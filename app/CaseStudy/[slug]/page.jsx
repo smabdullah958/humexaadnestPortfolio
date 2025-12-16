@@ -23,7 +23,7 @@ const Page = ({ params }) => {
   <div className="absolute top-20 -right-10 w-72 h-72 bg-purple-300 rounded-full blur-3xl opacity-30"></div>
 
   {/* Title */}
-  <h1 className="relative text-3xl sm:text-4xl lg:text-5xl font-extrabold text-center text-gray-900 mt-10  2xl:mt-40">
+  <h1 className="relative text-3xl sm:text-4xl lg:text-5xl font-extrabold text-center text-purple-700 mt-10  2xl:mt-40">
     {caseStudy.title}
   </h1>
 
@@ -57,7 +57,7 @@ const Page = ({ params }) => {
         key={index}
         className="border rounded-2xl p-5 sm:p-10 text-center bg-white shadow-sm"
       >
-        <p className="text-2xl font-extrabold text-blue-500 mb-2">
+        <p className="text-2xl font-extrabold text-purple-500 mb-2">
           {item.value}
         </p>
         <p className="text-lg text-gray-700 font-medium">
@@ -74,7 +74,7 @@ const Page = ({ params }) => {
 
   {/* Background */}
   <section className="bg-gray-50 rounded-3xl p-8 md:p-14 shadow-sm">
-    <h2 className="text-2xl md:text-3xl font-extrabold text-gray-900 mb-4">
+    <h2 className="text-2xl md:text-3xl font-extrabold text-purple-700 mb-4">
       📌 Background
     </h2>
     <p
@@ -84,7 +84,7 @@ const Page = ({ params }) => {
 
   {/* Services */}
   <section className="bg-white rounded-3xl p-8 md:p-14 border shadow-sm">
-    <h2 className="text-2xl md:text-3xl font-extrabold text-gray-900 mb-4">
+    <h2 className="text-2xl md:text-3xl font-extrabold text-purple-700 mb-4">
       🛠 Services Provided
     </h2>
     <p 
@@ -97,12 +97,12 @@ const Page = ({ params }) => {
 
     {/* Challenges */}
     <div className="bg-red-50 rounded-3xl p-8 md:p-12 shadow-sm">
-      <h3 className="text-xl md:text-2xl font-extrabold text-red-600 mb-3">
+      <h3 className="text-lg md:text-2xl font-extrabold text-red-600 mb-3">
         ⚠ Challenges
       </h3>
       <p 
       dangerouslySetInnerHTML={{ __html: caseStudy.challenges }}
-      className="text-gray-700 text-lg leading-relaxed h-40 overflow-y-auto text-justify"/>
+      className="text-gray-700 text-lg leading-relaxed h-auto overflow-y-auto"/>
       </div>
 
     {/* Solutions */}
@@ -112,7 +112,7 @@ const Page = ({ params }) => {
       </h3>
       <p 
       dangerouslySetInnerHTML={{ __html: caseStudy.solutions }}
-      className="text-gray-700 text-lg leading-relaxed h-40 overflow-y-auto text-justify"/>
+      className="text-gray-700 text-lg leading-relaxed h-auto overflow-y-auto"/>
       </div>
 
   </section>

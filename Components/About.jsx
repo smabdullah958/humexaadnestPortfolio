@@ -11,7 +11,7 @@ const About = () => {
           About <span className='text-purple-700'>HUMEXA ADNEST</span>
         </h2>
 
-        <p className="text-lg leading-relaxed text-justify">
+        <p className="text-lg leading-relaxed ">
           Led by <span className="font-semibold text-purple-700">Humaira</span> — a Meta Ads & 
           Performance Marketing specialist with 3+ years of experience helping US brands grow 
           through precision targeting and psychology-driven campaigns.

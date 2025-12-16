@@ -54,7 +54,7 @@ export default function CaseStudy() {
               {/* Button pushed to bottom */}
               <Link
                 href={`/CaseStudy/${item.slug}`}
-                className="mt-auto w-full text-center rounded-xl bg-black text-white py-2 text-smhover:bg-gray-800 transition"
+                className="mt-auto w-full text-center rounded-xl bg-purple-600 hover:bg-purple-700 text-white py-2 text-smhover:bg-gray-800 transition font-bold"
               >
                 View Full Case Study
               </Link>

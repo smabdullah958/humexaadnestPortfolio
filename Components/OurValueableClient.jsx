@@ -44,7 +44,7 @@ export default function OurValueableClient() {
 
   return (
     <section className="bg-gray-200 py-16 px-6">
-      <h2 className="text-3xl font-bold text-center mb-10 text-gray-900">
+      <h2 className="text-3xl font-bold text-center mb-10 text-purple-700">
         What Our Clients Say
       </h2>
 
@@ -60,14 +60,14 @@ export default function OurValueableClient() {
               className="bg-white sm:p-3 pt-2  rounded-2xl shadow-md shrink-0"
               style={{ width: `calc(${100 / cardsPerView}% - ${cardGap * (cardsPerView - 1) / cardsPerView}px)` }}
             >
-               <h4 className="font-semibold text-gray-900 text-justify">{item.name}</h4>
-              <p className="text-xs text-gray-500 text-justify">{item.role}</p>
-              <div className="flex text-yellow-400 mb-3 text-justify">
+               <h4 className="font-semibold text-gray-900 px-3">{item.name}</h4>
+              <p className="text-xs text-gray-500 px-3">{item.role}</p>
+              <div className="flex text-yellow-400 mb-3 px-3">
                 {[...Array(5)].map((_, j) => (
                   <FaStar key={j} />
                 ))}
               </div>
-              <p className="text-sm text-gray-700 mb-4 text-justify px-3">“{item.text}”</p>
+              <p className="text-sm text-gray-700 mb-4 px-3">“{item.text}”</p>
              
             </div>
           ))}
