@@ -23,7 +23,7 @@ const HomePage=()=>{
     </div>
     
 <Link
-  href="https://wa.me/923161927285?text=Hi%20I%20want%20to%20book%20a%2015-minute%20call."
+  href="https://wa.me/923206841237?text=Hi%20I%20want%20to%20book%20a%2015-minute%20call."
   target="_blank"
   className="md:hidden text-[10px] fixed bottom-5 right-5 px-5 py-3 bg-purple-600 text-white font-semibold rounded-full shadow-lg hover:bg-green-700 transition z-50"
 >

@@ -101,7 +101,7 @@ const PricingCard = ({ plan }) => {
       )}
 
       <Link
-        href="https://wa.me/923161927285?text=Hi%20I%20want%20to%20book%20a%2015-minute%20call."
+        href="https://wa.me/923206841237?text=Hi%20I%20want%20to%20book%20a%2015-minute%20call."
         target="_blank"
         className="sm:hidden md:block p-3 sm:px-6 sm:py-3 bg-purple-600 hover:bg-purple-700 text-white font-semibold rounded-xl text-[11px] sm:text-sm  transition mt-5"
       >
