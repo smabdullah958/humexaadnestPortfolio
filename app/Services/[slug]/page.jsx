@@ -75,7 +75,7 @@ export default function ServiceDetails({ params }) {
                   .filter((item) => item.trim() !== "")
                   .map((point, idx) => (
                     <li key={idx} className="flex items-start gap-3">
-                      <FaCheckCircle className="text-purple-500 mt-1 text-lg sm:text-xl" />
+                      <FaCheckCircle className="text-purple-500 text-xl" />
                       {point.trim()}
                     </li>
                   ))}
