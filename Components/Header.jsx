@@ -33,10 +33,19 @@ const Header = () => {
       <div className='flex sm:gap-x-3 md:gap-x-7 lg:gap-x-10 justify-end items-center '>
         
         <Link href="/#about" className='sm:text-sm md:text-lg text-gray-800 hover:text-gray-900 text-md font-medium transition-all duration-300  hover:scale-110'>About</Link>
-        <Link href="/#services" className='sm:text-sm md:text-lg text-gray-800 hover:text-gray-900 text-md font-medium transition-all duration-300  hover:scale-110'>Services</Link>
-        <Link href="/#Pricing" className='sm:text-sm md:text-lg text-gray-800 hover:text-gray-900 text-md font-medium transition-all duration-300  hover:scale-110'>Pricing</Link>
-        <Link href="/#CaseStudy" className='sm:text-sm md:text-lg text-gray-800 hover:text-gray-900 text-md font-medium transition-all duration-300  hover:scale-110'>Case Study</Link>
-        <Link href="/#Contact" className='sm:text-sm md:text-lg text-gray-800 hover:text-gray-900 text-md font-medium transition-all duration-300  hover:scale-110 mr-5'>Contact</Link>
+        
+        <Link href="/#services" className='sm:text-sm md:text-lg text-gray-800 hover:text-gray-900 text-md font-medium transition-all duration-300  hover:scale-110'>
+        Services</Link>
+        
+         <Link href="/#CaseStudy" className='sm:text-sm md:text-lg text-gray-800 hover:text-gray-900 text-md font-medium transition-all duration-300  hover:scale-110'>
+         Case Study</Link>  
+        
+        <Link href="/#Pricing" className='sm:text-sm md:text-lg text-gray-800 hover:text-gray-900 text-md font-medium transition-all duration-300  hover:scale-110'>
+        Pricing</Link>
+        
+        <Link href="/#Contact" className='sm:text-sm md:text-lg text-gray-800 hover:text-gray-900 text-md font-medium transition-all duration-300  hover:scale-110 mr-5'>
+        Contact</Link>
+      
       </div>
 <Link href="https://wa.me/923161927285?text=Hi%20I%20want%20to%20book%20a%2015-minute%20call."
   target="_blank"
@@ -72,12 +81,20 @@ const Header = () => {
       {/* Mobile menu dropdown */}
       {show && (
         <div className='sm:hidden w-full flex flex-col  items-center p-6 space-y-4 fixed top-14 shadow-lg z-50 bg-[#ece7e7] '>
-          <Link href="/#about" onClick={CloseNavBar} className='text-gray-800 text-lg font-medium transition-all duration-300 hover:text-gray-900 hover:scale-105'>About</Link>
-          <Link href="/#services" onClick={CloseNavBar} className='text-gray-800  text-lg font-medium transition-all duration-300 hover:text-gray-900 hover:scale-105'>Services</Link>
-          <Link  href="/#Pricing" onClick={CloseNavBar} className='text-gray-800 text-lg font-medium transition-all duration-300 hover:text-gray-900 hover:scale-105'>Pricing</Link>
+          <Link href="/#about" onClick={CloseNavBar} className='text-gray-800 text-lg font-medium transition-all duration-300 hover:text-gray-900 hover:scale-105'>
+          About</Link>
+          
+          <Link href="/#services" onClick={CloseNavBar} className='text-gray-800  text-lg font-medium transition-all duration-300 hover:text-gray-900 hover:scale-105'>
+          Services</Link>
+          
           <Link href="/#CaseStudy" onClick={CloseNavBar} className='text-gray-800 text-lg font-medium transition-all duration-300 hover:text-gray-900 hover:scale-105'>
           Case Study</Link>
-          <Link href="/#Contact" onClick={CloseNavBar} className='text-gray-800 text-lg font-medium transition-all duration-300 hover:text-gray-900 hover:scale-105'>Contact</Link>
+          
+          <Link  href="/#Pricing" onClick={CloseNavBar} className='text-gray-800 text-lg font-medium transition-all duration-300 hover:text-gray-900 hover:scale-105'>
+          Pricing</Link>
+          
+          <Link href="/#Contact" onClick={CloseNavBar} className='text-gray-800 text-lg font-medium transition-all duration-300 hover:text-gray-900 hover:scale-105'>
+          Contact</Link>
         </div>
       )}
       
