@@ -23,7 +23,7 @@ const WhyChooseUs = () => {
             <span className="text-purple-600 text-2xl">✔</span>
             <p>
               <span className="font-semibold">Proven Lead Generation Expertise</span> –  
-              3+ years running US-based Meta Ads that lower CPL by 30–50% while maximizing ROI.
+              3+ years running US-based Meta Ads that lower CPL by <span className="text-purple-600"> 30–50% </span> while maximizing ROI.
             </p>
           </li>
 
@@ -31,7 +31,8 @@ const WhyChooseUs = () => {
             <span className="text-purple-600 text-2xl">✔</span>
             <p>
               <span className="font-semibold">Guaranteed Lead Efficiency</span> –  
-              For services priced at $100–$500+, 1 confirmed client usually costs only $10–$40 in ads.
+              For services priced at <span className="text-purple-600"> $100–$500+ </span>, 1 confirmed client usually costs only <span className="text-purple-600"> $10–$40
+                 </span> in ads.
             </p>
           </li>
 

@@ -5,7 +5,7 @@ import Link from "next/link";
 const pricingPlans = [
   {
     title: "Brand Kickstart Package (Starter Plan)",
-    price: "$299 / month",
+    price: "$199 / month",
     adBudget: "5$–10$ / day (optional)",
     color: "purple",
     deliverables: [
