@@ -118,18 +118,18 @@ const Page = ({ params }) => {
   </section>
 
   {/* Final Result */}
-  <section className="relative bg-linear-to-r from-blue-600 to-purple-600 rounded-3xl p-10 md:p-16 text-white overflow-hidden">
+  <section className="relative bg-linear-to-r from-blue-300 to-purple-300 rounded-3xl p-10 md:p-16 text-white overflow-hidden">
 
     {/* Glow */}
     <div className="absolute -top-10 -right-10 w-72 h-72 bg-white/20 rounded-full blur-3xl"></div>
 
-    <h2 className="relative text-2xl md:text-3xl font-extrabold mb-4">
+    <h2 className="relative text-2xl md:text-3xl font-extrabold mb-4 text-black">
       🚀 Final Results
     </h2>
 
     <p 
     dangerouslySetInnerHTML={{ __html: caseStudy.result }}
-    className="relative text-lg md:text-xl leading-relaxed"/>
+    className="relative text-lg font-bold text-black md:text-xl leading-relaxed"/>
 
   {caseStudy.resultImage && (
     <div className="relative grid grid-cols-1 sm:grid-cols-2 gap-6 mt-6">

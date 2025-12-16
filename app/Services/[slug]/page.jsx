@@ -18,13 +18,13 @@ export default function ServiceDetails({ params }) {
   return (
     <div className="bg-gray-100 py-16 ">
       {/* Premium Title */}
-      <h1 className="text-center text-4xl font-extrabold text-gray-900 bg-clip-text pt-10 xl:pt-14 2xl:pt-40">
+      <h1 className="text-center text-4xl font-extrabold text-purple-700 bg-clip-text pt-10 xl:pt-14 2xl:pt-40">
         {service.name}
       </h1>
 
       {/* Short + Image Section */}
-      <div className="flex flex-col md:flex-row items-center justify-around mt-12 pr-5 md:px-6 gap-x-10">
         {/* Short Description */}
+      <div className="flex flex-col md:flex-row items-center justify-around mt-12 pr-5 md:px-6 gap-x-10">
         <div className="md:w-1/2 text-lg text-gray-700 leading-relaxed xl:w-[50%] 2xl:w-[30%] pl-10 2xl:text-xl whitespace-pre-line text-justify" >
           {service.short}
         </div>
@@ -75,7 +75,7 @@ export default function ServiceDetails({ params }) {
                   .filter((item) => item.trim() !== "")
                   .map((point, idx) => (
                     <li key={idx} className="flex items-start gap-3">
-                      <FaCheckCircle className="text-purple-500 mt-1" />
+                      <FaCheckCircle className="text-purple-500 mt-1 text-lg sm:text-xl" />
                       {point.trim()}
                     </li>
                   ))}
