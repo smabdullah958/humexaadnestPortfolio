@@ -136,8 +136,7 @@ const Page = ({ params }) => {
       {caseStudy.resultImage.map((img, index) => (
         <div
           key={index}
-          className="bg-white rounded-2xl p-3 shadow-lg"
-        >
+          className="bg-white rounded-2xl p-3 shadow-lg"   >
           <Image
             src={img}
             alt={`${caseStudy.title} result ${index + 1}`}
