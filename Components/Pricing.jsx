@@ -67,7 +67,7 @@ const PricingCard = ({ plan }) => {
 
   return (
     <div className="border border-gray-300 rounded-2xl p-6 shadow-lg bg-white hover:scale-[1.02] transition ">
-      <h2 className="text-2xl font-bold text-gray-900 mb-2 text-justify">{plan.title}</h2>
+      <h2 className="text-2xl font-bold text-gray-900 mb-2">{plan.title}</h2>
       <div className="text-xl font-semibold text-purple-600">{plan.price}</div>
       <div className="text-sm text-purple-600 mb-4">{plan.adBudget}</div>
 
@@ -103,9 +103,9 @@ const PricingCard = ({ plan }) => {
       <Link
         href="https://wa.me/923161927285?text=Hi%20I%20want%20to%20book%20a%2015-minute%20call."
         target="_blank"
-        className="sm:hidden md:block px-6 py-3 bg-purple-600 hover:bg-purple-700 text-white font-semibold rounded-xl  transition mt-5"
+        className="sm:hidden md:block p-3 sm:px-6 sm:py-3 bg-purple-600 hover:bg-purple-700 text-white font-semibold rounded-xl text-[11px] sm:text-sm  transition mt-5"
       >
-        Book Call
+          Get Started Today
       </Link>
       </div>
     </div>
