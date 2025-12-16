@@ -82,7 +82,7 @@ SetSubmitting(null)
 
             <p className='flex items-center gap-3 mb-2'>
               <FaPhone className='text-purple-400' /> 
-              000000000
+              +92 320 684 1237
             </p>
 
             <p className='flex items-center gap-3 mb-2'>
