@@ -1,11 +1,16 @@
 "use client";
-import React from "react";
+import React,{useEffect} from "react";
 import { motion } from "framer-motion";
 import CountUp from "react-countup";
-
+import Aos from "aos";
 const OurExperience = () => {
+  useEffect(() => {
+    Aos.init({ duration: 150 });
+  }, []);
   return (
-    <div className="bg-[#eff4f7] text-black  py-12 px-6">
+    <div
+      data-aos="fade-down"
+    className="bg-[#eff4f7] text-black  py-12 px-6">
       <div className="max-w-screen mx-auto text-center">
         
         {/* Heading */}

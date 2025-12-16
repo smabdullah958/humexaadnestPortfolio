@@ -11,6 +11,10 @@ import OurValueableClient from '@/Components/OurValueableClient'
 import ContactUs from '@/Components/Contact'
 import Footer from "@/Components/footer.jsx"
 import CaseStudy from '@/Components/CaseStudy'
+//for animation
+import "aos/dist/aos.css";
+
+
 const page = () => {
   return (
     <div>

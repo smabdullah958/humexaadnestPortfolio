@@ -2,6 +2,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { FaStar } from "react-icons/fa";
+import Aos from "aos";
 
 const reviews = [
   { name: "James R.", role: "HVAC – TX", text: "CPL dropped 45%. Booked jobs only." },
@@ -43,7 +44,9 @@ export default function OurValueableClient() {
     : 0;
 
   return (
-    <section className="bg-gray-200 py-16 px-6">
+    <section
+      data-aos="fade-down"
+    className="bg-gray-200 py-16 px-6">
       <h2 className="text-3xl font-bold text-center mb-10 text-purple-700">
         What Our Clients Say
       </h2>

@@ -1,7 +1,8 @@
 "use client";
 
-import React from "react";
+import React,{useEffect} from "react";
 import Link from "next/link";
+import Aos from "aos";
 const pricingPlans = [
   {
     title: "Brand Kickstart Package (Starter Plan)",
@@ -114,8 +115,13 @@ const PricingCard = ({ plan }) => {
 
 
 export default function Pricing() {
+  useEffect(() => {
+    Aos.init({ duration: 150 });
+  }, []);
   return (
-    <div id="Pricing" className="py-20 px-6 bg-gray-50">
+    <div
+      data-aos="fade-up"
+    id="Pricing" className="py-20 px-6 bg-gray-50">
       <h1 className="text-center text-4xl font-bold text-purple-700 mb-10 ">
         Our Pricing & Plans
       </h1>

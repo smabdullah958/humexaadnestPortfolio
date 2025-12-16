@@ -1,13 +1,13 @@
 "use client"
-// import Aos from 'aos';
+ import Aos from 'aos';
 import React, { useEffect, useState } from 'react'
-import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaClock } from "react-icons/fa";
+import { FaPhone, FaEnvelope} from "react-icons/fa";
 
 const ContactUs = () => {
   
-//   useEffect(() => {
-//     Aos.init({ duration: 500 });
-//   }, []);
+   useEffect(() => {
+     Aos.init({ duration: 150 });
+   }, []);
 
   let [Submitting,SetSubmitting]=useState(null);
   const [result, setResult] =useState("");
@@ -51,9 +51,11 @@ SetSubmitting(null)
 }
 
   return (
-    <div  id="Contact" className='bg-gray-100'>
-    <h1 data-aos="fade-down" className='lg:text-4xl text-3xl pt-5 pb-8 sm:pt-10  text-center font-bold text-gray-900 '>Contact Us</h1>
-    <div data-aos="fade-up" className='grid grid-cols-1 md:grid-cols-2 items-center justify-center  2xl:py-14  sm:px-16 px-10   md:pt-0 text-gray-800 text-xl '>
+    <div
+    data-aos="fade-down"
+    id="Contact" className='bg-gray-100'>
+    <h1  className='lg:text-4xl text-3xl pt-5 pb-8 sm:pt-10  text-center font-bold text-gray-900 '>Contact Us</h1>
+    <div  className='grid grid-cols-1 md:grid-cols-2 items-center justify-center  2xl:py-14  sm:px-16 px-10   md:pt-0 text-gray-800 text-xl '>
         <form onSubmit={(e)=>e.preventDefault()} className='order-1 md:order-2  md:mt-5 grid gap-4 md:mx-10 xl:mx-20'>
           <input type='text' name='UserName' value={Data.UserName} onChange={HandleValues} required placeholder='UserName' className='w-full lg:w-[30vw] p-2 border border-gray-900 rounded-md mb-3'  />
           

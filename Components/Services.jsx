@@ -1,10 +1,15 @@
 "use client";
 import Link from "next/link";
-import React from "react";
+import React,{useEffect} from "react";
 import { ServicesObject } from "@/Components/Services&CaseStudyObject";
+import Aos from "aos";
 const Services = () => {
+ useEffect(() => {
+    Aos.init({ duration: 150 });
+  }, []);
  return (
     <div
+      data-aos="fade-down"
       id="services"
       className="bg-gray-100 w-full h-full px-6 lg:px-12 py-10 xl:py-16"
     >

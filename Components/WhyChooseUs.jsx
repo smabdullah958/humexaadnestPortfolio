@@ -1,10 +1,13 @@
 "use client"
 import Image from "next/image";
-import React from "react";
+import Aos from 'aos';
+import React,{useEffect} from "react";
 
 const WhyChooseUs = () => {
   return (
-    <div className="bg-[#F4F4F5] px-6 lg:px-16 py-12 md:py-16 grid grid-cols-1 md:grid-cols-2 items-center gap-14 ">
+    <div
+      data-aos="fade-down"
+    className="bg-[#F4F4F5] px-6 lg:px-16 py-12 md:py-16 grid grid-cols-1 md:grid-cols-2 items-center gap-14 ">
       
       {/* right TEXT SECTION */}
       <div className="order-1 md:order-2 space-y-6">

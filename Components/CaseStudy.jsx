@@ -1,13 +1,18 @@
 "use client";
-import React from "react";
+import React,{useEffect} from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { caseStudies } from "@/Components/Services&CaseStudyObject";
 import Link from "next/link";
+import Aos from "aos";
 
 export default function CaseStudy() {
   return (
-    <section id="CaseStudy" className="max-w-full mx-auto px-6 py-16">
+    <section
+      data-aos="fade-up"
+      id="CaseStudy"
+      className="max-w-full mx-auto px-6 py-16 bg-gray-200"
+    >
       <h2 className="text-4xl font-bold text-center mb-12">
         Case Studies
       </h2>

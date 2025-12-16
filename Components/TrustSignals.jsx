@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
-
+import Aos from "aos";
 const TrustSignals = () => {
   const partners = [
     { image: "/Industry1.png", name: "Partner1" },
@@ -45,7 +45,9 @@ const TrustSignals = () => {
   }
 
   return (
-    <section className="w-full bg-linear-to-br from-purple-50 via-white to-purple-50 py-16 px-4">
+    <section
+      data-aos="fade-down"
+    className="w-full bg-linear-to-br from-purple-50 via-white to-purple-50 py-16 px-4">
 
       {/* Heading */}
       <div className="max-w-7xl mx-auto mb-12 text-center">
