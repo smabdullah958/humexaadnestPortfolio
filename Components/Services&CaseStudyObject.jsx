@@ -151,10 +151,11 @@ result:`
   image: "/UseCase2.png",
 
   background: `
-    Name: Macallum Injury Law Firm<br/>
-    Industry: Personal Injury Law<br/>
-    Business Type: Law Firm / Attorney<br/>
-    Market Served: Florida, Massachusetts, Washington DC, Georgia, New Mexico (USA)<br/><br/>
+   <b> Name : </b> Macallum Injury Law Firm<br/>
+   <b> Industry : </b> Personal Injury Law<br/>
+   <b> Business Type : </b> Law Firm / Attorney<br/>
+   <b> Market Served : </b> Florida, Massachusetts, Washington DC, Georgia, New Mexico (USA)
+   <br/><br/>
     The firm entered the market with no structured digital acquisition system and relied on inconsistent inbound inquiries.
   `,
 
@@ -165,22 +166,22 @@ result:`
 
   challenges: `
     <ul>
-      <li>No strong digital presence</li>
-      <li>Low-performing text-based creatives</li>
-      <li>High cost per lead (~$60)</li>
-      <li>Irrelevant and non-victim leads</li>
-      <li>Mixed case inquiries (non-injury cases)</li>
+      <li> ❌ No strong digital presence</li>
+      <li> ❌ Low-performing text-based creatives</li>
+      <li> ❌ High cost per lead (~$60)</li>
+      <li> ❌ Irrelevant and non-victim leads</li>
+      <li> ❌ Mixed case inquiries (non-injury cases)</li>
     </ul>
   `,
 
   solutions: `
     <ul>
-      <li>Rebuilt the acquisition system from scratch</li>
-      <li>Launched attorney-led video creatives</li>
-      <li>Focused messaging on injury-only eligibility</li>
-      <li>Introduced conditional lead forms with qualifying questions</li>
-      <li>Added call ads and message ads for high-intent users</li>
-      <li>Scaled campaigns across five US states</li>
+      <li> ❌ Rebuilt the acquisition system from scratch</li>
+      <li> ❌ Launched attorney-led video creatives</li>
+      <li> ❌ Focused messaging on injury-only eligibility</li>
+      <li> ❌ Introduced conditional lead forms with qualifying questions</li>
+      <li> ❌ Added call ads and message ads for high-intent users</li>
+      <li> ❌ Scaled campaigns across five US states</li>
     </ul>
   `,
 
@@ -230,11 +231,11 @@ resultImage:["/ResultImage3.png","/ResultImage4.png"]
 
   challenges: `
     <ul>
-      <li>High CPL (~$40 per lead)</li>
-      <li>Low lead volume after heavy ad spend</li>
-      <li>No scalable paid acquisition system</li>
-      <li>Weak text-based creatives</li>
-      <li>Mixed short-term and long-term intent leads</li>
+      <li> ❌ High CPL (~$40 per lead)</li>
+      <li> ❌ Low lead volume after heavy ad spend</li>
+      <li> ❌ No scalable paid acquisition system</li>
+      <li> ❌ Weak text-based creatives</li>
+      <li> ❌ Mixed short-term and long-term intent leads</li>
     </ul>
   `,
 
