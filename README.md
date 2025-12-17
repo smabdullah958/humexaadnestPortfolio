@@ -57,5 +57,5 @@ humexaadnestPortfolio/
 ├─ next.config.js
 └─ README.md
 
-   cd humexaadnest
+   cd humexaadnestPortfolio
 
