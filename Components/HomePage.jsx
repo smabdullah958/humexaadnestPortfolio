@@ -5,8 +5,8 @@ const HomePage=()=>{
 
   return (
     <div
-    id="home" className='min-h-[80vh] 2xl:min-h-[70vh]'>
-      <div   className="relative  flex items-center justify-center overflow-hidden pt-10 md:pt-0 pb-5 md:pb-0 bg-[#ebf2f6] xl:mt-14">
+    id="home">
+      <div   className="relative min-h-[80vh] 2xl:min-h-[70vh]  flex items-center justify-center overflow-hidden pt-10 md:pt-0 pb-5 md:pb-0 bg-[#ebf2f6] xl:mt-14">
       <div
         className="absolute inset-0  bg-contain bg-right bg-no-repeat h-[80vh] mt-24 sm:mr-10 rounded-2xl opacity-40 lg:opacity-50 sm:bg-[url('/LeadGeneration.png')]"/>
       <div className="relative z-10 container px-10 text-left text-gray-800 font-extrabold">
