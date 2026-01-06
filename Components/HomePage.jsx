@@ -11,17 +11,19 @@ const HomePage=()=>{
         className="absolute inset-0  bg-contain bg-right bg-no-repeat h-[80vh] mt-24 sm:mr-10 rounded-2xl opacity-40 lg:opacity-50 sm:bg-[url('/LeadGeneration.png')]"/>
       <div className="relative z-10 container px-10 text-left text-gray-800 font-extrabold">
         <div className="max-w-xl sm:mt-10">
-          <div className="text-xl sm:text-3xl 2xl:text-4xl font-bold md:pl-10  mt-5 mb-10 leading-tight">
-            <span className='text-center block'>  HUMEXA ADNEST </span>
-            <span className='block text-[10px] sm:text-[12px] font-semibold mt-1 text-center'> Lead Generation & Digital Growth Experts </span>
+          <div className="text-xl sm:text-3xl 2xl:text-4xl font-bold md:pl-10  mt-5 mb-5 sm:mb-10 leading-tight">
+            <span className='text-center block'>HUMEXA ADNEST </span>
+            <span className='block text-[10px] sm:text-[12px] font-semibold mt-1 text-center'> Lead Generation & Digital Growth Experts</span>
           </div>
-          <p  className="text-sm lg:text-lg 2xl:text-xl mb-10 text-gray-800  md:ml-10 leading-relaxed  text-left md:w-[40vw]  2xl:w-[20vw] font-semibold">
+        </div>
+           <Image src="/LeadGeneration.png" width={300} height={100} className='sm:hidden' alt="hero image" loading='lazy' />
+          <p  className="text-sm lg:text-lg 2xl:text-xl mb-10 text-gray-800  md:ml-10 leading-relaxed  text-left md:w-[40vw] 2xl:w-[20vw] font-semibold">
           Helping Home Services, POS SaaS, Law Firms & Property Management Companies Generate high-quality leads with proven Meta Ads Strategies. Achieve Low Cost-Per-Lead 
           <span className='font-extrabold'> ($10–$20) </span> and Maximize Revenue 
           <span className='font-extrabold'> ($50k+ Monthly Potential) </span> with 3+ Years of Targeted US Campaign Experience.
             </p>
-    </div>
-    <Image src="/LeadGeneration.png" width={300} height={100} className='sm:hidden' alt="hero image" loading='lazy' />
+    
+ 
 <Link
   href="https://wa.me/923206841237?text=Hi%20I%20want%20to%20book%20a%2015-minute%20call."
   target="_blank"
