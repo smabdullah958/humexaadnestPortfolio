@@ -16,7 +16,7 @@ const HomePage=()=>{
           </div>
         </div>
           <p className="text-sm lg:text-lg 2xl:text-xl mb-10 mt-16 text-gray-800 md:ml-10 leading-relaxed  text-left md:w-[40vw] 2xl:w-[20vw] font-semibold">
-          Helping Home Services, POS SaaS, Law Firms & Property Management Companies Generate high-quality leads with proven Meta Ads Strategies. Achieve Low Cost-Per-Lead 
+          helping Home Services, pos saas, law firms & property management companies generate high-quality leads with proven Meta Ads Strategies. Achieve Low Cost-Per-Lead 
           <span className='font-extrabold text-purple-700  '> ($10–$20) </span> and Maximize Revenue 
           <span className='font-extrabold text-purple-700  '> ($50k+ Monthly Potential) </span> with <span className='font-extrabold text-purple-700  '> 3+ Years </span> of Targeted US Campaign Experience.
             </p>
