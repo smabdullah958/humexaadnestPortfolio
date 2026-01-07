@@ -12,8 +12,8 @@ const HomePage=()=>{
       <div className="relative z-10 container px-10 text-left text-gray-800 font-extrabold">
         <div className="max-w-xl sm:mt-10">
           <div className="text-xl sm:text-3xl 2xl:text-4xl font-bold md:pl-10  mt-5 mb-5 sm:mb-10 leading-tight">
-            <span className='text-center block pt-20 '>HUMEXA ADNEST </span>
-            <span className='block text-[10px] sm:text-[12px] font-semibold mt-1 text-center'> Lead Generation & Digital Growth Experts</span>
+            <span className='sm:text-center block pt-20 '>HUMEXA ADNEST </span>
+            <span className='block text-[10px] sm:text-[12px] font-semibold mt-1 sm:text-center'> Lead Generation & Digital Growth Experts</span>
           </div>
         </div>
         <Image src="/LeadGeneration.png" width={200} height={100} className='sm:hidden ml-10  mt-9' alt="hero image" loading='lazy' />
