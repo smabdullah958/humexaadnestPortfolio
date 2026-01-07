@@ -92,9 +92,9 @@ export const caseStudies = [
 `,
       service: `
                 <ul>
-               <li> Social media management </li>
-               <li> Social media marketing </li>
-                Web development 
+               <li> • Social media management </li>
+               <li> • Social media marketing </li>
+               <li> • Web development </li> 
                 </ul>
                   `,
       challenges:`
@@ -117,18 +117,18 @@ export const caseStudies = [
         <li> • Business admins & decision-makers</li>
  Underperforming audiences were eliminated within  <b>72-hour </b> optimization windows.<br/>
 <b>Offer-Led Creative System </b><br/>
-Problem → Solution → Advantage framework<br/>
-Strong incentive-based messaging<br/>
-Copy-level qualification to eliminate non-restaurant user<br/>
-This shift increased CTR by <b>180%</b> and stabilized CPLs.<br/>
+• Problem → Solution → Advantage framework<br/>
+• Strong incentive-based messaging<br/>
+ • Copy-level qualification to eliminate non-restaurant user<br/>
+• This shift increased CTR by <b>180%</b> and stabilized CPLs.<br/>
 `,
 result:`
-      Monthly Ad Spend: $2,000+<br/>
-      Average Cost Per Lead: $10–$15<br/>
-      Leads Generated: 150+ per month<br/>
-      Reach Growth: +750%<br/>
-      Lead Volume Growth: +1,200% (from zero baseline)<br/>
-      Cost Efficiency: 30–50% below POS industry CPL average<br/>`,
+     • Monthly Ad Spend:<b> $2,000+ </b><br/>
+      • Average Cost Per Lead: <b>$10–$15</b><br/>
+     • Leads Generated: <b>150+ </b> per month<br/>
+     • Reach Growth: <b>+750% </b><br/>
+     • Lead Volume Growth: <b>+1,200% </b> (from zero baseline)<br/>
+     • Cost Efficiency: <b>30–50% </b> below POS industry CPL average<br/>`,
   OverAllResult:`
       400+
       Leads (in 3 Months)
@@ -160,8 +160,8 @@ result:`
   `,
 
   service: `
-    Social Media Management<br/>
-    Web Development
+   • Social Media Management<br/>
+   • Web Development
   `,
 
   challenges: `
@@ -176,25 +176,25 @@ result:`
 
   solutions: `
     <ul>
-      <li>  Rebuilt the acquisition system from scratch</li>
-      <li>  Launched attorney-led video creatives</li>
-      <li>  Focused messaging on injury-only eligibility</li>
-      <li>  Introduced conditional lead forms with qualifying questions</li>
-      <li>  Added call ads and message ads for high-intent users</li>
-      <li>  Scaled campaigns across five US states</li>
+      <li> •  Rebuilt the acquisition system from scratch</li>
+      <li> • Launched attorney-led video creatives</li>
+      <li> • Focused messaging on injury-only eligibility</li>
+      <li> • Introduced conditional lead forms with qualifying questions</li>
+      <li> • Added call ads and message ads for high-intent users</li>
+      <li> • Scaled campaigns across five US states</li>
     </ul>
   `,
 
   result: `
   <ul> 
-  <li>Total Ad Spend: ~$2,000</li>
-    <li>Average CPL: ~$20</li>
-    <li>Total Leads Generated: 180–250 injury leads</li>
-    <li>Lead-to-Client Ratio: 1 signed case per 5 leads</li>
-    <li>CTR Improvement: +160%</li>
-    <li>CPM Reduction: ~35%</li>
-    <li>Irrelevant Lead Reduction: 40–50%</li>
-    <li>Six-figure revenue potential generated</li>
+  <li> • Total Ad Spend: <b> ~$2,000 </b></li>
+    <li> • Average CPL: <b>~$20 </b></li>
+    <li> • Total Leads Generated: <b>180–250 </b> injury leads</li>
+    <li> • Lead-to-Client Ratio: 1 signed case per 5 leads</li>
+    <li>• CTR Improvement: <b>+160% </b></li>
+    <li>• CPM Reduction: <b>~35% </b></li>
+    <li>• Irrelevant Lead Reduction: <b>40–50%</b></li>
+    <li>• Six-figure revenue potential generated</li>
   `,
 
   OverAllResult: `
@@ -227,7 +227,7 @@ resultImage:["/ResultImage3.png","/ResultImage4.png"]
   `,
 
   service: `
-    Social Media Marketing (Paid Advertising Only)
+   • Social Media Marketing (Paid Advertising Only)
   `,
 
   challenges: `
@@ -242,22 +242,22 @@ resultImage:["/ResultImage3.png","/ResultImage4.png"]
 
   solutions: `
     <ul>
-      <li>Audited and restructured campaign messaging</li>
-      <li>Separated short-term and long-term service intent</li>
-      <li>Used real client-owned video creatives</li>
-      <li>Added on-screen text and SEO-focused captions</li>
-      <li>Introduced testimonial and property walkthrough videos</li>
-      <li>Rotated only high-performing creatives</li>
+      <li> • Audited and restructured campaign messaging</li>
+      <li>• Separated short-term and long-term service intent</li>
+      <li>• Used real client-owned video creatives</li>
+      <li>• Added on-screen text and SEO-focused captions</li>
+      <li>• Introduced testimonial and property walkthrough videos</li>
+      <li>• Rotated only high-performing creatives</li>
     </ul>
   `,
 
   result: `
-    Total Leads Generated: 150+ property owner leads<br/>
-    Average CPL: ~$20<br/>
-    CPL Reduction: ~60%<br/>
-    Lead Conversion Ratio: 1 confirmed deal per 6 leads<br/>
-    Video creatives exceeded 3% CTR<br/>
-    High five-figure to six-figure revenue potential generated
+    • Total Leads Generated: 150+ property owner leads<br/>
+    • Average CPL:<b> ~$20 </b><br/>
+    • CPL Reduction:<b> ~60% </b><br/>
+    • Lead Conversion Ratio: 1 confirmed deal per <b> 6 leads </b><br/>
+    • Video creatives exceeded <b>3% </b> CTR<br/>
+    • High five-figure to six-figure revenue potential generated
   `,
 
   OverAllResult: `
@@ -288,7 +288,7 @@ resultImage:["/ResultImage3.png","/ResultImage4.png"]
   `,
 
   service: `
-  Social Media Management Services
+ • Social Media Management Services
   `,
 
   challenges: `
@@ -303,27 +303,27 @@ resultImage:["/ResultImage3.png","/ResultImage4.png"]
   solutions: `
     <b>Branded Social Content</b><br/>
     <ul>
-      <li>Consistent, on-brand project showcases</li>
-      <li>Clear service highlights with visuals</li>
-      <li>Professional engineering-focused creatives</li>
+      <li>• Consistent, on-brand project showcases</li>
+      <li>• Clear service highlights with visuals</li>
+      <li>• Professional engineering-focused creatives</li>
     </ul>
 
     <b>Audience Growth Strategy</b><br/>
     <ul>
-      <li>Optimized bio & profile links</li>
-      <li>Strategic hashtags for reach</li>
-      <li>High-performing carousel posts</li>
+      <li>• Optimized bio & profile links</li>
+      <li>• Strategic hashtags for reach</li>
+      <li>• High-performing carousel posts</li>
     </ul>
 
-    <i>Content was aligned with audience interest to build credibility and engagement.</i>
+    • Content was aligned with audience interest to build credibility and engagement
   `,
 
   result: `
-    Facebook Growth: +353%<br/>
-    Instagram Growth: +165%<br/>
-    Engagement Surge: Significant monthly increase<br/>
-    Reach Expansion: Multi-platform growth<br/>
-    Facebook Reach: From 54 to 7.8k in under a year
+   • Facebook Growth: <b>+353%</b><br/>
+   • Instagram Growth: <b> +165% </b><br/>
+   • Engagement Surge: Significant monthly increase<br/>
+   • Reach Expansion: Multi-platform growth<br/>
+   • Facebook Reach: From  <b> 54 to 7.8k </b> in under a year
   `,
 
   OverAllResult: `
@@ -351,7 +351,7 @@ resultImage:["/ResultImage3.png","/ResultImage4.png"]
   `,
 
   service: `
-    Social Media Advertising Services
+  •   Social Media Advertising Services
   `,
 
   challenges: `
@@ -365,24 +365,24 @@ resultImage:["/ResultImage3.png","/ResultImage4.png"]
   solutions: `
     <b>Full-Funnel Facebook Ads</b><br/>
     <ul>
-      <li>Lead generation campaigns</li>
-      <li>Contact form & booking optimization</li>
-      <li>Audience refinement monthly</li>
+      <li> • Lead generation campaigns</li>
+      <li>• Contact form & booking optimization</li>
+      <li>•Audience refinement monthly</li>
     </ul>
 
     <b>Agile Optimization</b><br/>
     <ul>
-      <li>Creative & copy testing</li>
-      <li>Budget-efficient scaling</li>
-      <li>Monthly performance reviews</li>
+      <li>• Creative & copy testing</li>
+      <li>• Budget-efficient scaling</li>
+      <li>• Monthly performance reviews</li>
     </ul>
   `,
 
   result: `
-    Total Leads: 202 in 10 Months<br/>
-    Growth: +1000% increase in reach & leads<br/>
-    Budget Efficiency: $20/day<br/>
-    Peak Performance: 33 leads in best month
+   • Total Leads: 202 in 10 Months<br/>
+   • Growth: <b>+1000%</b> increase in reach & leads<br/>
+   • Budget Efficiency:<b> $20/day </b> <br/>
+   • Peak Performance:<b> 33 leads </b> in best month
   `,
 
   OverAllResult: `
@@ -410,7 +410,7 @@ resultImage:["/ResultImage3.png","/ResultImage4.png"]
   `,
 
   service: `
-    Social Media Marketing Services
+  •  Social Media Marketing Services
   `,
 
   challenges: `
@@ -424,21 +424,21 @@ resultImage:["/ResultImage3.png","/ResultImage4.png"]
   solutions: `
     <b>Engagement & Growth Strategy</b><br/>
     <ul>
-      <li>Page-like & engagement ad campaigns</li>
-      <li>Reels & TikTok trend-based content</li>
-      <li>Optimized Instagram bio & branding</li>
+      <li>• Page-like & engagement ad campaigns</li>
+      <li>• Reels & TikTok trend-based content</li>
+      <li>• Optimized Instagram bio & branding</li>
     </ul>
 
-    <i>Client collaboration ensured real-time, relevant, and authentic content.</i>
+    • Client collaboration ensured real-time, relevant, and authentic content
   `,
 
   result: `
-    Facebook Reach: +700k%<br/>
-    Facebook Followers: Increased of 2.2k<br/>
-    Video Views: 57k+<br/>
-    Instagram Visits: +3k<br/>
-    Instagram Followers: Gained nearly 500<br/>
-    Instagram Interactions: 2.5k+
+   • Facebook Reach:<b> +700k% </b><br/>
+   • Facebook Followers: Increased of<b> 2.2k </b><br/>
+   • Video Views:<b> 57k+ </b><br/>
+   • Instagram Visits:<b> +3k </b><br/>
+   • Instagram Followers: Gained nearly <b>500</b><br/>
+   • Instagram Interactions: <b>2.5k+</b>
   `,
 
   OverAllResult: `

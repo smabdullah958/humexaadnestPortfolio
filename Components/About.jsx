@@ -34,7 +34,7 @@ const About = () => {
       {/* RIGHT IMAGE */}
       <div className="order-1 md:order-2 flex justify-center md:justify-start 2xl:justify-center">
         <Image 
-          src="/im3.jpeg"
+          src="/AboutImage.png"
           alt="About Humexaadnest"
           width={500}
           height={500}
