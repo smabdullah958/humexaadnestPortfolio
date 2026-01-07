@@ -281,9 +281,9 @@ resultImage:["/ResultImage3.png","/ResultImage4.png"]
   image: "/UseCase4.png",
 
   background: `
-    <b>Client Industry:</b> <span class="text-sm">Structural Engineering</span><br/>
-    <b>Business Type:</b> <span class="text-sm">Engineering & Consulting Firm</span><br/>
-    <b>Market:</b> <span class="text-sm">Florida, USA</span><br/><br/>
+    <b>Client Industry:</b> <span>Structural Engineering</span><br/>
+    <b>Business Type:</b> <span>Engineering & Consulting Firm</span><br/>
+    <b>Market:</b> <span>Florida, USA</span><br/><br/>
     Axiom Structures provides professional engineering services for residential and commercial construction projects, focusing on quality, compliance, and long-term structural integrity.
   `,
 
@@ -344,9 +344,9 @@ resultImage:["/ResultImage3.png","/ResultImage4.png"]
   image: "/UseCase5.png",
 
   background: `
-    <b>Client Industry:</b> <span class="text-sm">Leadership & Executive Coaching</span><br/>
-    <b>Business Type:</b> <span class="text-sm">Consultant & Speaker</span><br/>
-    <b>Market:</b> <span class="text-sm">United States</span><br/><br/>
+    <b>Client Industry:</b> <span>Leadership & Executive Coaching</span><br/>
+    <b>Business Type:</b> <span>Consultant & Speaker</span><br/>
+    <b>Market:</b> <span>United States</span><br/><br/>
     Daryl works with organizations to enhance communication, decision-making, and leadership under pressure.
   `,
 
@@ -403,9 +403,9 @@ resultImage:["/ResultImage3.png","/ResultImage4.png"]
   image: "/UseCase6.png",
 
   background: `
-    <b>Client Industry:</b> <span class="text-sm">Travel & Tourism</span><br/>
-    <b>Business Type:</b> <span class="text-sm">Mission-Driven Travel Platform</span><br/>
-    <b>Market:</b> <span class="text-sm">United States</span><br/><br/>
+    <b>Client Industry:</b> <span>Travel & Tourism</span><br/>
+    <b>Business Type:</b> <span>Mission-Driven Travel Platform</span><br/>
+    <b>Market:</b> <span>United States</span><br/><br/>
     Power of Partnerships turns everyday travel bookings into donations for cancer research, without additional cost to travelers.
   `,
 
