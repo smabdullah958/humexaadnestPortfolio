@@ -33,7 +33,7 @@ const WhyChooseUs = () => {
           <li className="flex gap-3">
             <span className="text-purple-600 text-2xl">✔</span>
             <p>
-              <span className="font-semibold">Guaranteed Lead Efficiency</span> 
+              <span className="font-semibold">Guaranteed Lead Efficiency </span> 
               For services priced at <span className="text-purple-600 font-bold"> $100–$500+ </span>, 1 confirmed client usually costs only <span className="text-purple-600 font-bold"> $10–$40
                  </span> in ads.
             </p>
@@ -42,7 +42,7 @@ const WhyChooseUs = () => {
           <li className="flex gap-3">
             <span className="text-purple-600 text-2xl">✔</span>
             <p>
-              <span className="font-semibold">Industry-Specific Advantage</span>
+              <span className="font-semibold">Industry-Specific Advantage </span>
               Specialized in Home Services, POS SaaS, Law Firms & Property Management with ready-to-run winning campaign frameworks.
             </p>
           </li>
@@ -50,7 +50,7 @@ const WhyChooseUs = () => {
           <li className="flex gap-3">
             <span className="text-purple-600 text-2xl">✔</span>
             <p>
-              <span className="font-semibold">Data-Driven Strategy</span> 
+              <span className="font-semibold">Data-Driven Strategy </span> 
               No guesswork. Every campaign is built using analytics, historical performance & proven optimization techniques.
             </p>
           </li>
@@ -58,7 +58,7 @@ const WhyChooseUs = () => {
           <li className="flex gap-3">
             <span className="text-purple-600 text-2xl">✔</span>
             <p>
-              <span className="font-semibold">Organic + Paid Synergy</span> 
+              <span className="font-semibold">Organic + Paid Synergy </span> 
               We combine Meta Ads with organic engagement to boost conversions and long-term retention.
             </p>
           </li>
