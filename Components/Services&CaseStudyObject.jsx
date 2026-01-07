@@ -28,7 +28,7 @@ Tools We Use:
     id: 2,
     slug: "social-media-marketing-ads",
     name: "Social Media Marketing & Ads",
-    image: "/SocialMarketing+ADS(2).png",
+    image: "/SocialMediaMarketingAndAdds.png",
     icon: <FaUsersCog className="text-4xl text-purple-500" />,
     short:
       "Our ad campaigns focus on high-intent leads at low cost-per-lead ($10–$20). On average, 1 client converts within 3–4 qualified leads depending on your industry.",

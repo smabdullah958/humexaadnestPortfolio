@@ -51,7 +51,7 @@ const TrustSignals = () => {
 
       {/* Heading */}
       <div className="max-w-7xl mx-auto mb-12 text-center">
-        <h2 className="text-lg sm:text-2xl lg:text-3xl font-extrabold text-transparent bg-clip-text bg-linear-to-r from-purple-700 via-purple-600 to-pink-600 mb-3">
+        <h2 className="text-lg sm:text-2xl lg:text-3xl font-extrabold bg-clip-text text-gray-900">
           Trusted by Industry Leaders
         </h2>
         <p className="text-gray-600 text-md sm:text-xl">

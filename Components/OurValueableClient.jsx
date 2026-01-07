@@ -46,7 +46,7 @@ export default function OurValueableClient() {
     <section
       data-aos="fade-down"
     className="bg-gray-200 py-16 px-6">
-      <h2 className="text-3xl font-bold text-center mb-10 text-purple-700">
+      <h2 className="text-3xl font-bold text-center mb-10 text-gray-900">
         What Our Clients Say
       </h2>
 

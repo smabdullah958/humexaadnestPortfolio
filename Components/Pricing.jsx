@@ -69,8 +69,8 @@ const PricingCard = ({ plan }) => {
   return (
     <div className="border border-gray-300 rounded-2xl p-6 shadow-lg bg-white hover:scale-[1.02] transition ">
       <h2 className="text-2xl font-bold text-gray-900 mb-2">{plan.title}</h2>
-      <div className="text-xl font-semibold text-purple-600">{plan.price}</div>
-      <div className="text-sm text-purple-600 mb-4">{plan.adBudget}</div>
+      <div className="text-xl font-semibold text-gray-700">{plan.price}</div>
+      <div className="text-sm text-gray-700 mb-4">{plan.adBudget}</div>
 
       <div className="space-y-4 max-h-96 overflow-y-auto pr-2">
         {visibleDeliverables.map((item, index) => (
@@ -122,12 +122,12 @@ export default function Pricing() {
     <div
       data-aos="fade-up"
     id="Pricing" className="py-20 px-6 bg-gray-50">
-      <h1 className="text-center text-4xl font-bold text-purple-700 mb-10 ">
+      <h1 className="text-center text-4xl font-bold text-gray-900 mb-10 ">
         Our Pricing & Plans
       </h1>
 
         <p className="pb-10 text-justify text-gray-900">
-            Our services cost anywhere from $299-$699 a month. depending on how many different services you’re utilizing, your goals and more. Check out our packages and pricing below and schedule a call to get a free, custom quote and proposal today.
+            Our services is depending on how many different services you’re utilizing, your goals and more. Check out our packages and pricing below and schedule a call to get a free, custom quote and proposal today.
         </p>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">

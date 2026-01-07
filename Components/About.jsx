@@ -15,7 +15,7 @@ const About = () => {
       className="bg-gray-100 px-6 lg:px-12 py-10 md:py-16 grid grid-cols-1 md:grid-cols-2  gap-10">
       <div className="order-1 md:order-2 space-y-5 text-gray-700 flex flex-col justify-center">
         <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 ">
-          About <span className='text-purple-700'>HUMEXA ADNEST</span>
+          About <span className='text-gray-900'>HUMEXA ADNEST</span>
         </h2>
 
         <p className="text-lg leading-relaxed ">
