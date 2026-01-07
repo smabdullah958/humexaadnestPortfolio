@@ -87,9 +87,9 @@ export const caseStudies = [
       background:`
      <b> Client Industry: </b><span className="text-sm"> POS Systems for Restaurants & Bars</span> <br/>
       <b> Business Type: </b><span className="text-sm"> SaaS / POS Seller </span> <br/>
-      <b> Market: </b><span className="text-sm"> United States (Primary: California → Nationwide)
+      <b> Market: </b><span className="text-sm"> United States  (California)
     The client entered the market with zero digital footprint. No website, no social media presence, and no prior advertising data. Despite this, they aimed to compete in a highly saturated US POS market where average acquisition costs are typically high.</span>
-}`,
+`,
       service: `
                 <ul>
                <li> Social media management </li>
@@ -110,17 +110,17 @@ export const caseStudies = [
 <b>Dual Audience Strategy</b>
 <br/>
 <ul >
-               <li> Broad audience testing for algorithm learning </li>
-               <li> Interest-based clusters:
-          <li>Restaurant owners & managers</li>
-        <li>POS & business software interests</li>
-        <li>Business admins & decision-makers</li>
-<i>Underperforming audiences were eliminated within 72-hour optimization windows.</i><br/>
+               <li> • Broad audience testing for algorithm learning </li>
+               <li> • Interest-based clusters:
+          <li> • Restaurant owners & managers</li>
+        <li> • POS & business software interests</li>
+        <li> • Business admins & decision-makers</li>
+ Underperforming audiences were eliminated within  <b>72-hour </b> optimization windows.<br/>
 <b>Offer-Led Creative System </b><br/>
 Problem → Solution → Advantage framework<br/>
 Strong incentive-based messaging<br/>
 Copy-level qualification to eliminate non-restaurant user<br/>
-This shift increased CTR by 180% and stabilized CPLs.<br/>
+This shift increased CTR by <b>180%</b> and stabilized CPLs.<br/>
 `,
 result:`
       Monthly Ad Spend: $2,000+<br/>
@@ -176,24 +176,25 @@ result:`
 
   solutions: `
     <ul>
-      <li> ❌ Rebuilt the acquisition system from scratch</li>
-      <li> ❌ Launched attorney-led video creatives</li>
-      <li> ❌ Focused messaging on injury-only eligibility</li>
-      <li> ❌ Introduced conditional lead forms with qualifying questions</li>
-      <li> ❌ Added call ads and message ads for high-intent users</li>
-      <li> ❌ Scaled campaigns across five US states</li>
+      <li>  Rebuilt the acquisition system from scratch</li>
+      <li>  Launched attorney-led video creatives</li>
+      <li>  Focused messaging on injury-only eligibility</li>
+      <li>  Introduced conditional lead forms with qualifying questions</li>
+      <li>  Added call ads and message ads for high-intent users</li>
+      <li>  Scaled campaigns across five US states</li>
     </ul>
   `,
 
   result: `
-    Total Ad Spend: ~$2,000<br/>
-    Average CPL: ~$20<br/>
-    Total Leads Generated: 180–250 injury leads<br/>
-    Lead-to-Client Ratio: 1 signed case per 5 leads<br/>
-    CTR Improvement: +160%<br/>
-    CPM Reduction: ~35%<br/>
-    Irrelevant Lead Reduction: 40–50%<br/>
-    Six-figure revenue potential generated
+  <ul> 
+  <li>Total Ad Spend: ~$2,000</li>
+    <li>Average CPL: ~$20</li>
+    <li>Total Leads Generated: 180–250 injury leads</li>
+    <li>Lead-to-Client Ratio: 1 signed case per 5 leads</li>
+    <li>CTR Improvement: +160%</li>
+    <li>CPM Reduction: ~35%</li>
+    <li>Irrelevant Lead Reduction: 40–50%</li>
+    <li>Six-figure revenue potential generated</li>
   `,
 
   OverAllResult: `
@@ -218,10 +219,10 @@ resultImage:["/ResultImage3.png","/ResultImage4.png"]
   image: "/UseCase3.png",
 
   background: `
-    Brand Name: Unique Homes Group<br/>
-    Industry: Home & Property Management<br/>
-    Business Model: Third-Party Property Management Company<br/>
-    Location: Ontario, Canada<br/><br/>
+   <b>Brand Name:</b> Unique Homes Group<br/>
+    <b>Industry:</b> Home & Property Management<br/>
+    <b>Business Model:</b> Third-Party Property Management Company<br/>
+    <b>Location:</b> Ontario, Canada<br/><br/>
     The client manages rental properties and ensures consistent income and property maintenance for owners.
   `,
 

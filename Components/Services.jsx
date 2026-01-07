@@ -15,7 +15,7 @@ const Services = () => {
     >
       {/* Heading */}
       <h1 className="text-4xl md:text-5xl font-extrabold mb-12 text-center text-gray-900">
-        Explore Our <span className="text-purple-500">Services</span>
+        Explore Our Services
       </h1>
 
       {/* Grid */}

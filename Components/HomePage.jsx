@@ -1,6 +1,5 @@
 "use client"
 import Link from 'next/link'
-import Image from 'next/image';
 const HomePage=()=>{
 
   return (
@@ -8,7 +7,7 @@ const HomePage=()=>{
     id="home">
       <div   className="relative min-h-[80vh] 2xl:min-h-[70vh] flex items-center justify-center overflow-hidden pt-10 md:pt-0 pb-5 md:pb-0 bg-[#ebf2f6] xl:mt-14">
       <div
-        className="absolute inset-0  bg-contain bg-right bg-no-repeat h-[80vh] mt-24 sm:mr-10 rounded-2xl opacity-20 sm:opacity-40  lg:opacity-50 bg-[url('/LeadGeneration.png')]"/>
+        className="absolute inset-0  bg-contain bg-right bg-no-repeat h-[80vh] mt-24 sm:mr-10 rounded-2xl opacity-10 sm:opacity-40  lg:opacity-50 bg-[url('/LeadGeneration.png')]"/>
       <div className="relative z-10 container px-10 text-left text-gray-800 font-extrabold">
         <div className="max-w-xl sm:mt-10">
           <div className="text-xl sm:text-3xl 2xl:text-4xl font-bold md:pl-10  mt-5 mb-5 sm:mb-10 leading-tight">

@@ -36,7 +36,7 @@ const OurExperience = () => {
             <h2 className="text-5xl font-extrabold text-black ">
               <CountUp end={3} duration={3} enableScrollSpy />+
             </h2>
-            <p className="text-lg mt-2 text-gray-800">Years of Experience</p>
+            <p className="text-lg mt-2 text-purple-700 font-bold">Years of Experience</p>
           </motion.div>
 
           {/* 30+ Projects */}
@@ -49,7 +49,7 @@ const OurExperience = () => {
             <h2 className="text-5xl font-extrabold text-black ">
               <CountUp end={30} duration={3} enableScrollSpy />+
             </h2>
-            <p className="text-lg mt-2 text-gray-800">Major Projects</p>
+            <p className="text-lg mt-2 text-purple-700 font-bold">Major Projects</p>
           </motion.div>
 
           {/* 90% Happy Clients */}
@@ -62,7 +62,7 @@ const OurExperience = () => {
             <h2 className="text-5xl font-extrabold text-black ">
               <CountUp end={90} duration={3} enableScrollSpy />%
             </h2>
-            <p className="text-lg mt-2 text-gray-800">Happy Clients</p>
+            <p className="text-lg mt-2 text-purple-700 font-bold">Happy Clients</p>
           </motion.div>
 
         </div>

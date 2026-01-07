@@ -1,10 +1,9 @@
 "use client";
-import React,{useEffect} from "react";
+import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { caseStudies } from "@/Components/Services&CaseStudyObject";
 import Link from "next/link";
-import Aos from "aos";
 
 export default function CaseStudy() {
   return (

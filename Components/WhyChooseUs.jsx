@@ -17,7 +17,7 @@ const WhyChooseUs = () => {
         </h2>
 
         <p className="text-gray-600 text-lg">
-          Proven Strategies, Guaranteed Results & Cost-Effective Lead Generation
+          Proven strategies, guaranteed results & cost-effective lead generation
         </p>
 
         <ul className="space-y-4 text-gray-700 text-lg">
@@ -25,16 +25,16 @@ const WhyChooseUs = () => {
           <li className="flex gap-3">
             <span className="text-purple-600 text-2xl">✔</span>
             <p>
-              <span className="font-semibold">Proven Lead Generation Expertise</span> –  
-              3+ years running US-based Meta Ads that lower CPL by <span className="text-purple-600"> 30–50% </span> while maximizing ROI.
+              <span className="font-semibold">Proven Lead Generation Expertise</span>
+              <span className="text-black font-bold"> 3+ years </span> running US-based Meta Ads that lower CPL by <span className="text-purple-600 font-bold"> 30–50% </span> while maximizing ROI.
             </p>
           </li>
 
           <li className="flex gap-3">
             <span className="text-purple-600 text-2xl">✔</span>
             <p>
-              <span className="font-semibold">Guaranteed Lead Efficiency</span> –  
-              For services priced at <span className="text-purple-600"> $100–$500+ </span>, 1 confirmed client usually costs only <span className="text-purple-600"> $10–$40
+              <span className="font-semibold">Guaranteed Lead Efficiency</span> 
+              For services priced at <span className="text-purple-600 font-bold"> $100–$500+ </span>, 1 confirmed client usually costs only <span className="text-purple-600 font-bold"> $10–$40
                  </span> in ads.
             </p>
           </li>
@@ -42,7 +42,7 @@ const WhyChooseUs = () => {
           <li className="flex gap-3">
             <span className="text-purple-600 text-2xl">✔</span>
             <p>
-              <span className="font-semibold">Industry-Specific Advantage</span> –  
+              <span className="font-semibold">Industry-Specific Advantage</span>
               Specialized in Home Services, POS SaaS, Law Firms & Property Management with ready-to-run winning campaign frameworks.
             </p>
           </li>
@@ -50,7 +50,7 @@ const WhyChooseUs = () => {
           <li className="flex gap-3">
             <span className="text-purple-600 text-2xl">✔</span>
             <p>
-              <span className="font-semibold">Data-Driven Strategy</span> –  
+              <span className="font-semibold">Data-Driven Strategy</span> 
               No guesswork. Every campaign is built using analytics, historical performance & proven optimization techniques.
             </p>
           </li>
@@ -58,7 +58,7 @@ const WhyChooseUs = () => {
           <li className="flex gap-3">
             <span className="text-purple-600 text-2xl">✔</span>
             <p>
-              <span className="font-semibold">Organic + Paid Synergy</span> –  
+              <span className="font-semibold">Organic + Paid Synergy</span> 
               We combine Meta Ads with organic engagement to boost conversions and long-term retention.
             </p>
           </li>

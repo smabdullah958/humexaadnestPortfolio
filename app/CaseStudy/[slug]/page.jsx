@@ -118,7 +118,7 @@ const Page = ({ params }) => {
   </section>
 
   {/* Final Result */}
-  <section className="relative bg-linear-to-r from-blue-300 to-purple-300 rounded-3xl p-10 md:p-16 text-white overflow-hidden">
+  <section className="relative bg-linear-to-r from-blue-200 to-purple-400 rounded-3xl p-10 md:p-16 text-white overflow-hidden">
 
     {/* Glow */}
     <div className="absolute -top-10 -right-10 w-72 h-72 bg-white/20 rounded-full blur-3xl"></div>
