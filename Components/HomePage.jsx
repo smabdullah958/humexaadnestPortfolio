@@ -12,11 +12,13 @@ const HomePage=()=>{
       <div className="relative z-10 container px-10 text-left text-gray-800 font-extrabold">
         <div className="max-w-xl sm:mt-10">
           <div className="text-xl sm:text-3xl 2xl:text-4xl font-bold md:pl-10  mt-5 mb-5 sm:mb-10 leading-tight">
-            <span className='sm:text-center block pt-20 '>HUMEXA ADNEST </span>
-            <span className='block text-[10px] sm:text-[12px] font-semibold mt-1 sm:text-center'> Lead Generation & Digital Growth Experts</span>
+            <span className='text-center block pt-20 '>HUMEXA ADNEST </span>
+            <span className='block text-[10px] sm:text-[12px] font-semibold mt-1 text-center'> Lead Generation & Digital Growth Experts</span>
           </div>
         </div>
-        <Image src="/LeadGeneration.png" width={200} height={100} className='sm:hidden mx-3  mt-9' alt="hero image" loading='lazy' />
+        <div className="sm:hidden flex justify-center mt-9">
+        <Image src="/LeadGeneration.png" width={200} height={100} loading='lazy' />
+        </div>
           <p className="text-sm lg:text-lg 2xl:text-xl mb-10 text-gray-800 md:ml-10 leading-relaxed  text-left md:w-[40vw] 2xl:w-[20vw] font-semibold">
           Helping Home Services, POS SaaS, Law Firms & Property Management Companies Generate high-quality leads with proven Meta Ads Strategies. Achieve Low Cost-Per-Lead 
           <span className='font-extrabold'> ($10–$20) </span> and Maximize Revenue 
