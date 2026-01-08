@@ -12,7 +12,7 @@ const WhyChooseUs = () => {
       <div className="order-1 md:order-2 space-y-6">
         
         <h2 className="text-3xl lg:text-4xl font-bold text-gray-900">
-          Why Choose <span className="text-gray-900">HUMEXA ADNEST</span>?
+          Why Choose <span className="text-purple-700">HUMEXA ADNEST</span>?
         </h2>
 
         <p className="text-gray-600 text-lg">
@@ -24,7 +24,7 @@ const WhyChooseUs = () => {
           <li className="flex gap-3">
             <span className="text-purple-600 text-2xl">✔</span>
             <p>
-              <span className="font-semibold">Proven Lead Generation Expertise</span><br/>
+              <span className="font-semibold text-black">Proven Lead Generation Expertise</span><br/>
               <span className="text-black font-bold ml-3 sm:ml-10"> 3+ years </span> running US-based Meta Ads that lower CPL by <span className="text-purple-600 font-bold"> 30–50% </span> while maximizing ROI.
             </p>
           </li>
@@ -32,7 +32,7 @@ const WhyChooseUs = () => {
           <li className="flex gap-3">
             <span className="text-purple-600 text-2xl">✔</span>
             <p>
-              <span className="font-semibold">Guaranteed Lead Efficiency </span> <br/>
+              <span className="font-semibold text-black">Guaranteed Lead Efficiency </span> <br/>
               <span className="sm:ml-10 ml-3">
               For services priced at 
               </span> 
@@ -44,7 +44,7 @@ const WhyChooseUs = () => {
           <li className="flex gap-3">
             <span className="text-purple-600 text-2xl">✔</span>
             <p>
-              <span className="font-semibold">Industry-Specific Advantage </span><br/>
+              <span className="font-semibold text-black">Industry-Specific Advantage </span><br/>
            <span className="sm:ml-10 ml-3">
                Specialized in Home Services, POS SaaS, Law Firms & Property Management with ready-to-run winning campaign frameworks.
             </span>
@@ -54,7 +54,7 @@ const WhyChooseUs = () => {
           <li className="flex gap-3">
             <span className="text-purple-600 text-2xl">✔</span>
             <p>
-              <span className="font-semibold">Data-Driven Strategy </span> <br/>
+              <span className="font-semibold text-black">Data-Driven Strategy </span> <br/>
               <span className="sm:ml-10 ml-3">
                 No guesswork. Every campaign is built using analytics, historical performance & proven optimization techniques.
                 </span>
@@ -64,7 +64,7 @@ const WhyChooseUs = () => {
           <li className="flex gap-3">
             <span className="text-purple-600 text-2xl">✔</span>
             <p>
-              <span className="font-semibold">Organic + Paid Synergy </span> <br/>
+              <span className="font-semibold text-black">Organic + Paid </span> <br/>
               <span className="sm:ml-10 ml-3">
               We combine Meta Ads with organic engagement to boost conversions and long-term retention.
               </span>
