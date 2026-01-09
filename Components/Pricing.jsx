@@ -6,7 +6,6 @@ import Aos from "aos";
 const pricingPlans = [
   {
     title: "Brand Kickstart Package (Starter Plan)",
-    price: "$199 / month",
     adBudget: "5$–10$ / day (optional)",
     color: "purple",
     deliverables: [
@@ -20,7 +19,6 @@ const pricingPlans = [
   },
   {
     title: "Lead & Authority Booster (Growth Plan)",
-    price: "$399 / month",
     adBudget:
       "$10/day (Awareness + engagement + traffic) • $30/day (Lead campaigns)",
     color: "blue",
@@ -38,7 +36,6 @@ const pricingPlans = [
   },
   {
     title: "Premium Pro Domination Package (Pro Plan)",
-    price: "$699 / month",
     adBudget: "Custom budget required",
     color: "black",
     deliverables: [
